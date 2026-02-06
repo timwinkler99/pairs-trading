@@ -1,0 +1,905 @@
+Ticker,Name,Price,Market Cap,GICS Ind Name,GICS Sector,Sec Type
+AAPL UW Equity,Apple Inc,165.35,2657298939904,"Technology Hardware, Storage & Peripherals",Information Technology,Common Stock
+MSFT UW Equity,Microsoft Corp,282.91,2109912252416,Software,Information Technology,Common Stock
+GOOGL UW Equity,Alphabet Inc,117.47,1537232863232,Interactive Media & Services,Communication Services,Common Stock
+GOOG UW Equity,Alphabet Inc,118.22,1537232863232,Interactive Media & Services,Communication Services,Common Stock
+AMZN UW Equity,Amazon.com Inc,140.8,1434407665664,Internet & Direct Marketing Retail,Consumer Discretionary,Common Stock
+TSLA UW Equity,Tesla Inc,864.51,902972047360,Automobiles,Consumer Discretionary,Common Stock
+BRK/B UN Equity,Berkshire Hathaway Inc,292.07,645271322624,Diversified Financial Services,Financials,Common Stock
+UNH UN Equity,UnitedHealth Group Inc,535.06,500485881856,Health Care Providers & Services,Health Care,Common Stock
+NVDA UW Equity,NVIDIA Corp,189.89,474724990976,Semiconductors & Semiconductor Equipment,Information Technology,Common Stock
+V UN Equity,Visa Inc,215.87,461089210368,IT Services,Information Technology,Common Stock
+JNJ UN Equity,Johnson & Johnson,171.11,449878982656,Pharmaceuticals,Health Care,Common Stock
+META UW Equity,Meta Platforms Inc,167.11,449116209152,Interactive Media & Services,Communication Services,Common Stock
+XOM UN Equity,Exxon Mobil Corp,88.45,368627417088,"Oil, Gas & Consumable Fuels",Energy,Common Stock
+WMT UN Equity,Walmart Inc,126.58,346974781440,Food & Staples Retailing,Consumer Staples,Common Stock
+PG UN Equity,Procter & Gamble Co/The,144.72,345816236032,Household Products,Consumer Staples,Common Stock
+MA UN Equity,Mastercard Inc,357.51,345489113088,IT Services,Information Technology,Common Stock
+JPM UN Equity,JPMorgan Chase & Co,115.76,339474579456,Banks,Financials,Common Stock
+HD UN Equity,Home Depot Inc/The,309.69,318285414400,Specialty Retail,Consumer Discretionary,Common Stock
+CVX UN Equity,Chevron Corp,153.64,300740280320,"Oil, Gas & Consumable Fuels",Energy,Common Stock
+LLY UN Equity,Eli Lilly & Co,301.32,286306664448,Pharmaceuticals,Health Care,Common Stock
+PFE UN Equity,Pfizer Inc,49.27,276448837632,Pharmaceuticals,Health Care,Common Stock
+KO UN Equity,Coca-Cola Co/The,63.38,274094997504,Beverages,Consumer Staples,Common Stock
+BAC UN Equity,Bank of America Corp,33.96,272876716032,Banks,Financials,Common Stock
+ABBV UN Equity,AbbVie Inc,138.04,244068040704,Biotechnology,Health Care,Common Stock
+PEP UW Equity,PepsiCo Inc,174.55,240893804544,Beverages,Consumer Staples,Common Stock
+COST UW Equity,Costco Wholesale Corp,540.67,239496773632,Food & Staples Retailing,Consumer Staples,Common Stock
+TMO UN Equity,Thermo Fisher Scientific Inc,590.26,231257358336,Life Sciences Tools & Services,Health Care,Common Stock
+AVGO UW Equity,Broadcom Inc,551.44,222681235456,Semiconductors & Semiconductor Equipment,Information Technology,Common Stock
+MRK UN Equity,Merck & Co Inc,87.41,221433987072,Pharmaceuticals,Health Care,Common Stock
+DHR UN Equity,Danaher Corp,290.0,210959155200,Life Sciences Tools & Services,Health Care,Common Stock
+ORCL UN Equity,Oracle Corp,77.35,206132019200,Software,Information Technology,Common Stock
+ACN UN Equity,Accenture PLC,309.35,205763510272,IT Services,Information Technology,Common Stock
+ADBE UW Equity,Adobe Inc,433.43,202845241344,Software,Information Technology,Common Stock
+DIS UN Equity,Walt Disney Co/The,106.63,194224816128,Entertainment,Communication Services,Common Stock
+ABT UN Equity,Abbott Laboratories,109.25,191320752128,Health Care Equipment & Supplies,Health Care,Common Stock
+MCD UN Equity,McDonald's Corp,259.23,190719983616,"Hotels, Restaurants & Leisure",Consumer Discretionary,Common Stock
+CRM UN Equity,Salesforce Inc,190.17,189219143680,Software,Information Technology,Common Stock
+VZ UN Equity,Verizon Communications Inc,44.95,188777168896,Diversified Telecommunication Services,Communication Services,Common Stock
+CSCO UW Equity,Cisco Systems Inc,45.01,186384793600,Communications Equipment,Information Technology,Common Stock
+TMUS UW Equity,T-Mobile US Inc,144.56,181284208640,Wireless Telecommunication Services,Communication Services,Common Stock
+NKE UN Equity,NIKE Inc,113.87,178611453952,"Textiles, Apparel & Luxury Goods",Consumer Discretionary,Common Stock
+NEE UN Equity,NextEra Energy Inc,87.98,172861276160,Electric Utilities,Utilities,Common Stock
+UPS UN Equity,United Parcel Service Inc,196.76,170919116800,Air Freight & Logistics,Industrials,Common Stock
+CMCSA UW Equity,Comcast Corp,38.27,168894627840,Media,Communication Services,Common Stock
+QCOM UW Equity,QUALCOMM Inc,150.21,168685830144,Semiconductors & Semiconductor Equipment,Information Technology,Common Stock
+TXN UW Equity,Texas Instruments Inc,184.3,168396259328,Semiconductors & Semiconductor Equipment,Information Technology,Common Stock
+WFC UN Equity,Wells Fargo & Co,43.76,165983846400,Banks,Financials,Common Stock
+AMD UW Equity,Advanced Micro Devices Inc,102.31,165161172992,Semiconductors & Semiconductor Equipment,Information Technology,Common Stock
+BMY UN Equity,Bristol-Myers Squibb Co,72.12,153994608640,Pharmaceuticals,Health Care,Common Stock
+PM UN Equity,Philip Morris International Inc,97.6,151295934464,Tobacco,Consumer Staples,Common Stock
+LIN UN Equity,Linde PLC,301.97,150491463680,Chemicals,Materials,Common Stock
+MS UN Equity,Morgan Stanley,86.13,147870253056,Capital Markets,Financials,Common Stock
+INTC UW Equity,Intel Corp,35.39,145311334400,Semiconductors & Semiconductor Equipment,Information Technology,Common Stock
+UNP UN Equity,Union Pacific Corp,228.62,142768291840,Road & Rail,Industrials,Common Stock
+RTX UN Equity,Raytheon Technologies Corp,93.03,137360105472,Aerospace & Defense,Industrials,Common Stock
+CVS UN Equity,CVS Health Corp,102.26,134249873408,Health Care Providers & Services,Health Care,Common Stock
+INTU UW Equity,Intuit Inc,468.99,132291305472,Software,Information Technology,Common Stock
+AMGN UW Equity,Amgen Inc,246.25,131726721024,Biotechnology,Health Care,Common Stock
+SCHW UN Equity,Charles Schwab Corp/The,69.31,131436085248,Capital Markets,Financials,Common Stock
+T UN Equity,AT&T Inc,18.35,130762096640,Diversified Telecommunication Services,Communication Services,Common Stock
+HON UW Equity,Honeywell International Inc,192.27,129530822656,Industrial Conglomerates,Industrials,Common Stock
+LOW UN Equity,Lowe's Cos Inc,199.08,127237767168,Specialty Retail,Consumer Discretionary,Common Stock
+AMT UN Equity,American Tower Corp,272.19,126728101888,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+SPGI UN Equity,S&P Global Inc,376.65,125612777472,Capital Markets,Financials,Common Stock
+MDT UN Equity,Medtronic PLC,93.28,123942002688,Health Care Equipment & Supplies,Health Care,Common Stock
+IBM UN Equity,International Business Machines Corp,132.48,119653335040,IT Services,Information Technology,Common Stock
+GS UN Equity,Goldman Sachs Group Inc/The,334.67,119128244224,Capital Markets,Financials,Common Stock
+COP UN Equity,ConocoPhillips,92.85,118201147392,"Oil, Gas & Consumable Fuels",Energy,Common Stock
+AXP UN Equity,American Express Co,157.51,118092775424,Consumer Finance,Financials,Common Stock
+ELV UN Equity,Elevance Health Inc,475.13,114031525888,Health Care Providers & Services,Health Care,Common Stock
+LMT UN Equity,Lockheed Martin Corp,426.41,113063559168,Aerospace & Defense,Industrials,Common Stock
+PYPL UW Equity,PayPal Holdings Inc,95.32,110235279360,IT Services,Information Technology,Common Stock
+BLK UN Equity,BlackRock Inc,695.93,105597206528,Capital Markets,Financials,Common Stock
+DE UN Equity,Deere & Co,343.31,104927780864,Machinery,Industrials,Common Stock
+ADP UW Equity,Automatic Data Processing Inc,247.2,102715801600,IT Services,Information Technology,Common Stock
+NFLX UW Equity,Netflix Inc,226.78,100850335744,Entertainment,Communication Services,Common Stock
+C UN Equity,Citigroup Inc,51.66,100050419712,Banks,Financials,Common Stock
+NOW UN Equity,ServiceNow Inc,494.85,99959701504,Software,Information Technology,Common Stock
+SBUX UW Equity,Starbucks Corp,85.73,98366603264,"Hotels, Restaurants & Leisure",Consumer Discretionary,Common Stock
+BA UN Equity,Boeing Co/The,165.04,98002591744,Aerospace & Defense,Industrials,Common Stock
+CAT UN Equity,Caterpillar Inc,185.39,97869078528,Machinery,Industrials,Common Stock
+PLD UN Equity,Prologis Inc,131.39,97273847808,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+EL UN Equity,Estee Lauder Cos Inc/The,270.74,96748183552,Personal Products,Consumer Staples,Common Stock
+AMAT UW Equity,Applied Materials Inc,109.62,95363620864,Semiconductors & Semiconductor Equipment,Information Technology,Common Stock
+ADI UW Equity,Analog Devices Inc,177.25,92135620608,Semiconductors & Semiconductor Equipment,Information Technology,Common Stock
+MDLZ UW Equity,Mondelez International Inc,63.77,87401005056,Food Products,Consumer Staples,Common Stock
+CI UN Equity,Cigna Corp,281.77,85972590592,Health Care Providers & Services,Health Care,Common Stock
+ISRG UW Equity,Intuitive Surgical Inc,240.32,85820964864,Health Care Equipment & Supplies,Health Care,Common Stock
+CHTR UW Equity,Charter Communications Inc,462.98,85779562496,Media,Communication Services,Common Stock
+DUK UN Equity,Duke Energy Corp,109.16,84053196800,Electric Utilities,Utilities,Common Stock
+MMM UN Equity,3M Co,147.41,83965313024,Industrial Conglomerates,Industrials,Common Stock
+MMC UN Equity,Marsh & McLennan Cos Inc,165.6,82637324288,Insurance,Financials,Common Stock
+SO UN Equity,Southern Co/The,77.27,82101280768,Electric Utilities,Utilities,Common Stock
+ZTS UN Equity,Zoetis Inc,174.61,81741676544,Pharmaceuticals,Health Care,Common Stock
+SYK UN Equity,Stryker Corp,215.79,81637826560,Health Care Equipment & Supplies,Health Care,Common Stock
+GE UN Equity,General Electric Co,74.36,81539686400,Industrial Conglomerates,Industrials,Common Stock
+MO UN Equity,Altria Group Inc,44.1,79416311808,Tobacco,Consumer Staples,Common Stock
+CB UN Equity,Chubb Ltd,185.32,77397303296,Insurance,Financials,Common Stock
+CCI UN Equity,Crown Castle Inc,178.4,77254205440,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+TGT UN Equity,Target Corp,166.13,77033881600,Multiline Retail,Consumer Discretionary,Common Stock
+GILD UW Equity,Gilead Sciences Inc,61.09,76626010112,Biotechnology,Health Care,Common Stock
+BKNG UW Equity,Booking Holdings Inc,1924.97,76433334272,"Hotels, Restaurants & Leisure",Consumer Discretionary,Common Stock
+NOC UN Equity,Northrop Grumman Corp,477.59,73888571392,Aerospace & Defense,Industrials,Common Stock
+VRTX UW Equity,Vertex Pharmaceuticals Inc,288.03,73868025856,Biotechnology,Health Care,Common Stock
+TJX UN Equity,TJX Cos Inc/The,62.82,73602170880,Specialty Retail,Consumer Discretionary,Common Stock
+MRNA UW Equity,Moderna Inc,186.84,73091719168,Biotechnology,Health Care,Common Stock
+CME UW Equity,CME Group Inc,202.15,72660074496,Capital Markets,Financials,Common Stock
+BDX UN Equity,Becton Dickinson and Co,254.23,72505155584,Health Care Equipment & Supplies,Health Care,Common Stock
+LRCX UW Equity,Lam Research Corp,519.97,71222894592,Semiconductors & Semiconductor Equipment,Information Technology,Common Stock
+CSX UW Equity,CSX Corp,33.11,70896492544,Road & Rail,Industrials,Common Stock
+USB UN Equity,US Bancorp,47.39,70411304960,Banks,Financials,Common Stock
+WM UN Equity,Waste Management Inc,168.83,69783470080,Commercial Services & Supplies,Industrials,Common Stock
+PGR UN Equity,Progressive Corp/The,118.28,69183766528,Insurance,Financials,Common Stock
+MU UW Equity,Micron Technology Inc,62.46,68902445056,Semiconductors & Semiconductor Equipment,Information Technology,Common Stock
+PNC UN Equity,PNC Financial Services Group Inc/The,167.04,68507115520,Banks,Financials,Common Stock
+FISV UW Equity,Fiserv Inc,106.08,67847106560,IT Services,Information Technology,Common Stock
+CL UN Equity,Colgate-Palmolive Co,80.43,67088285696,Household Products,Consumer Staples,Common Stock
+D UN Equity,Dominion Energy Inc,82.57,66986594304,Multi-Utilities,Utilities,Common Stock
+REGN UW Equity,Regeneron Pharmaceuticals Inc,613.61,66888597504,Biotechnology,Health Care,Common Stock
+TFC UN Equity,Truist Financial Corp,50.1,66452312064,Banks,Financials,Common Stock
+EW UN Equity,Edwards Lifesciences Corp,106.12,65788358656,Health Care Equipment & Supplies,Health Care,Common Stock
+ITW UN Equity,Illinois Tool Works Inc,210.76,65255870464,Machinery,Industrials,Common Stock
+EQIX UW Equity,Equinix Inc,697.51,63525851136,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+ATVI UW Equity,Activision Blizzard Inc,80.49,62967857152,Entertainment,Communication Services,Common Stock
+GD UN Equity,General Dynamics Corp,228.76,62736564224,Aerospace & Defense,Industrials,Common Stock
+EOG UN Equity,EOG Resources Inc,107.01,62712623104,"Oil, Gas & Consumable Fuels",Energy,Common Stock
+F UN Equity,Ford Motor Co,15.3,61509632000,Automobiles,Consumer Discretionary,Common Stock
+SHW UN Equity,Sherwin-Williams Co/The,237.08,61447118848,Chemicals,Materials,Common Stock
+HUM UN Equity,Humana Inc,484.02,61254520832,Health Care Providers & Services,Health Care,Common Stock
+HCA UN Equity,HCA Healthcare Inc,212.81,61081747456,Health Care Providers & Services,Health Care,Common Stock
+FDX UN Equity,FedEx Corp,234.89,61035147264,Air Freight & Logistics,Industrials,Common Stock
+AON UN Equity,Aon PLC,287.53,60647424000,Insurance,Financials,Common Stock
+ETN UN Equity,Eaton Corp PLC,148.65,59207294976,Electrical Equipment,Industrials,Common Stock
+FIS UN Equity,Fidelity National Information Services I,97.37,59198873600,IT Services,Information Technology,Common Stock
+NSC UN Equity,Norfolk Southern Corp,251.02,58957983744,Road & Rail,Industrials,Common Stock
+ICE UN Equity,Intercontinental Exchange Inc,105.02,58649284608,Capital Markets,Financials,Common Stock
+BSX UN Equity,Boston Scientific Corp,40.94,58610290688,Health Care Equipment & Supplies,Health Care,Common Stock
+APD UN Equity,Air Products and Chemicals Inc,262.64,58253283328,Chemicals,Materials,Common Stock
+PSA UN Equity,Public Storage,331.2,58139467776,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+DG UN Equity,Dollar General Corp,253.08,57448407040,Multiline Retail,Consumer Discretionary,Common Stock
+SNPS UW Equity,Synopsys Inc,374.29,57255235584,Software,Information Technology,Common Stock
+MCO UN Equity,Moody's Corp,311.07,57081344000,Capital Markets,Financials,Common Stock
+KLAC UW Equity,KLA Corp,395.74,56117428224,Semiconductors & Semiconductor Equipment,Information Technology,Common Stock
+OXY UN Equity,Occidental Petroleum Corp,59.01,54967341056,"Oil, Gas & Consumable Fuels",Energy,Common Stock
+KDP UW Equity,Keurig Dr Pepper Inc,38.72,54830239744,Beverages,Consumer Staples,Common Stock
+EMR UN Equity,Emerson Electric Co,90.39,53691658240,Electrical Equipment,Industrials,Common Stock
+CNC UN Equity,Centene Corp,93.05,53180915712,Health Care Providers & Services,Health Care,Common Stock
+GM UN Equity,General Motors Co,36.06,52577247232,Automobiles,Consumer Discretionary,Common Stock
+PXD UN Equity,Pioneer Natural Resources Co,217.15,51826528256,"Oil, Gas & Consumable Fuels",Energy,Common Stock
+AEP UW Equity,American Electric Power Co Inc,99.46,51095982080,Electric Utilities,Utilities,Common Stock
+CDNS UW Equity,Cadence Design Systems Inc,186.55,51090448384,Software,Information Technology,Common Stock
+MAR UW Equity,Marriott International Inc/MD,157.01,50957807616,"Hotels, Restaurants & Leisure",Consumer Discretionary,Common Stock
+MET UN Equity,MetLife Inc,63.3,50488987648,Insurance,Financials,Common Stock
+SRE UN Equity,Sempra Energy,159.79,50222751744,Multi-Utilities,Utilities,Common Stock
+MCK UN Equity,McKesson Corp,346.69,49829912576,Health Care Providers & Services,Health Care,Common Stock
+SLB UN Equity,Schlumberger NV,34.66,49022697472,Energy Equipment & Services,Energy,Common Stock
+ADSK UW Equity,Autodesk Inc,221.7,48169246720,Software,Information Technology,Common Stock
+MNST UW Equity,Monster Beverage Corp,91.38,48146796544,Beverages,Consumer Staples,Common Stock
+NXPI UW Equity,NXP Semiconductors NV,181.66,47703638016,Semiconductors & Semiconductor Equipment,Information Technology,Common Stock
+ECL UN Equity,Ecolab Inc,166.5,47450701824,Chemicals,Materials,Common Stock
+STZ UN Equity,Constellation Brands Inc,244.36,46654820352,Beverages,Consumer Staples,Common Stock
+PAYX UW Equity,Paychex Inc,129.55,46625935360,IT Services,Information Technology,Common Stock
+HSY UN Equity,Hershey Co/The,227.11,46553788416,Food Products,Consumer Staples,Common Stock
+ADM UN Equity,Archer-Daniels-Midland Co,82.76,46392074240,Food Products,Consumer Staples,Common Stock
+APH UN Equity,Amphenol Corp,77.54,46122975232,"Electronic Equipment, Instruments & Components",Information Technology,Common Stock
+KHC UW Equity,Kraft Heinz Co/The,37.57,46039773184,Food Products,Consumer Staples,Common Stock
+ROP UN Equity,Roper Technologies Inc,431.92,45787684864,Software,Information Technology,Common Stock
+GIS UN Equity,General Mills Inc,76.17,45485559808,Food Products,Consumer Staples,Common Stock
+ORLY UW Equity,O'Reilly Automotive Inc,709.01,45201395712,Specialty Retail,Consumer Discretionary,Common Stock
+KMB UN Equity,Kimberly-Clark Corp,133.38,45032058880,Household Products,Consumer Staples,Common Stock
+MPC UN Equity,Marathon Petroleum Corp,90.22,44985864192,"Oil, Gas & Consumable Fuels",Energy,Common Stock
+O UN Equity,Realty Income Corp,72.76,44934934528,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+LHX UN Equity,L3Harris Technologies Inc,234.58,44887621632,Aerospace & Defense,Industrials,Common Stock
+RSG UN Equity,Republic Services Inc,141.9,44830937088,Commercial Services & Supplies,Industrials,Common Stock
+CMG UN Equity,Chipotle Mexican Grill Inc,1600.78,44445089792,"Hotels, Restaurants & Leisure",Consumer Discretionary,Common Stock
+SYY UN Equity,Sysco Corp,86.25,43942289408,Food & Staples Retailing,Consumer Staples,Common Stock
+EXC UW Equity,Exelon Corp,44.77,43880730624,Electric Utilities,Utilities,Common Stock
+IQV UN Equity,IQVIA Holdings Inc,234.74,43780870144,Life Sciences Tools & Services,Health Care,Common Stock
+FCX UN Equity,Freeport-McMoRan Inc,30.27,43264012288,Metals & Mining,Materials,Common Stock
+CTAS UW Equity,Cintas Corp,423.61,42864283648,Commercial Services & Supplies,Industrials,Common Stock
+AZO UN Equity,AutoZone Inc,2195.1899,42778984448,Specialty Retail,Consumer Discretionary,Common Stock
+TEL UN Equity,TE Connectivity Ltd,133.14,42583359488,"Electronic Equipment, Instruments & Components",Information Technology,Common Stock
+FTNT UW Equity,Fortinet Inc,53.39,42099122176,Software,Information Technology,Common Stock
+CTVA UN Equity,Corteva Inc,57.9,41996029952,Chemicals,Materials,Common Stock
+MSI UN Equity,Motorola Solutions Inc,250.21,41756327936,Communications Equipment,Information Technology,Common Stock
+VLO UN Equity,Valero Energy Corp,104.99,41362948096,"Oil, Gas & Consumable Fuels",Energy,Common Stock
+AIG UN Equity,American International Group Inc,51.83,41059311616,Insurance,Financials,Common Stock
+COF UN Equity,Capital One Financial Corp,106.33,40811339776,Consumer Finance,Financials,Common Stock
+ENPH UQ Equity,Enphase Energy Inc,300.91,40760446976,Semiconductors & Semiconductor Equipment,Information Technology,Common Stock
+XEL UW Equity,Xcel Energy Inc,73.8,40367960064,Electric Utilities,Utilities,Common Stock
+PSX UN Equity,Phillips 66,83.76,40292839424,"Oil, Gas & Consumable Fuels",Energy,Common Stock
+MSCI UN Equity,MSCI Inc,496.18,39943950336,Capital Markets,Financials,Common Stock
+A UN Equity,Agilent Technologies Inc,133.61,39910383616,Life Sciences Tools & Services,Health Care,Common Stock
+MCHP UW Equity,Microchip Technology Inc,71.46,39480520704,Semiconductors & Semiconductor Equipment,Information Technology,Common Stock
+KMI UN Equity,Kinder Morgan Inc,17.47,39359926272,"Oil, Gas & Consumable Fuels",Energy,Common Stock
+WMB UN Equity,Williams Cos Inc/The,32.22,39261040640,"Oil, Gas & Consumable Fuels",Energy,Common Stock
+ANET UN Equity,Arista Networks Inc,126.68,38546247680,Communications Equipment,Information Technology,Common Stock
+DLR UN Equity,Digital Realty Trust Inc,129.47,38026285056,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+JCI UN Equity,Johnson Controls International plc,55.1,37953445888,Building Products,Industrials,Common Stock
+TRV UN Equity,Travelers Cos Inc/The,158.96,37723291648,Insurance,Financials,Common Stock
+PH UN Equity,Parker-Hannifin Corp,292.82,37589893120,Machinery,Industrials,Common Stock
+AFL UN Equity,Aflac Inc,59.43,37554794496,Insurance,Financials,Common Stock
+AJG UN Equity,Arthur J Gallagher & Co,178.51,37547077632,Insurance,Financials,Common Stock
+SBAC UW Equity,SBA Communications Corp,345.4,37261180928,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+DVN UN Equity,Devon Energy Corp,56.65,37094420480,"Oil, Gas & Consumable Fuels",Energy,Common Stock
+DLTR UW Equity,Dollar Tree Inc,164.97,37045010432,Multiline Retail,Consumer Discretionary,Common Stock
+EA UW Equity,Electronic Arts Inc,132.56,37024821248,Entertainment,Communication Services,Common Stock
+DOW UN Equity,Dow Inc,51.49,36978442240,Chemicals,Materials,Common Stock
+WELL UN Equity,Welltower Inc,80.68,36626120704,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+NUE UN Equity,Nucor Corp,136.64,36346241024,Metals & Mining,Materials,Common Stock
+PRU UN Equity,Prudential Financial Inc,96.51,35959627776,Insurance,Financials,Common Stock
+BF/B UN Equity,Brown-Forman Corp,75.54,35854360576,Beverages,Consumer Staples,Common Stock
+TT UN Equity,Trane Technologies PLC,154.34,35763257344,Building Products,Industrials,Common Stock
+HLT UN Equity,Hilton Worldwide Holdings Inc,130.32,35745132544,"Hotels, Restaurants & Leisure",Consumer Discretionary,Common Stock
+CTSH UW Equity,Cognizant Technology Solutions Corp,68.72,35582181376,IT Services,Information Technology,Common Stock
+NEM UN Equity,Newmont Corp,44.77,35533074432,Metals & Mining,Materials,Common Stock
+GPN UN Equity,Global Payments Inc,128.0,35476848640,IT Services,Information Technology,Common Stock
+WBD UW Equity,Warner Bros Discovery Inc,14.59,35418578944,Entertainment,Communication Services,Common Stock
+RMD UN Equity,ResMed Inc,241.8,35371630592,Health Care Equipment & Supplies,Health Care,Common Stock
+CARR UN Equity,Carrier Global Corp,41.88,35245514752,Building Products,Industrials,Common Stock
+ILMN UW Equity,Illumina Inc,223.77,35154268160,Life Sciences Tools & Services,Health Care,Common Stock
+BK UN Equity,Bank of New York Mellon Corp/The,43.5,35152490496,Capital Markets,Financials,Common Stock
+DXCM UW Equity,Dexcom Inc,89.09,34975109120,Health Care Equipment & Supplies,Health Care,Common Stock
+SPG UN Equity,Simon Property Group Inc,106.5,34863808512,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+TDG UN Equity,TransDigm Group Inc,638.3,34854752256,Aerospace & Defense,Industrials,Common Stock
+HPQ UN Equity,HP Inc,33.58,34726359040,"Technology Hardware, Storage & Peripherals",Information Technology,Common Stock
+ED UN Equity,Consolidated Edison Inc,97.19,34461831168,Multi-Utilities,Utilities,Common Stock
+IDXX UW Equity,IDEXX Laboratories Inc,407.78,33949196288,Health Care Equipment & Supplies,Health Care,Common Stock
+ODFL UW Equity,Old Dominion Freight Line Inc,303.17,33886484480,Road & Rail,Industrials,Common Stock
+KR UN Equity,Kroger Co/The,47.25,33810227200,Food & Staples Retailing,Consumer Staples,Common Stock
+YUM UN Equity,Yum! Brands Inc,118.42,33749700608,"Hotels, Restaurants & Leisure",Consumer Discretionary,Common Stock
+WBA UW Equity,Walgreens Boots Alliance Inc,38.99,33697366016,Food & Staples Retailing,Consumer Staples,Common Stock
+OTIS UN Equity,Otis Worldwide Corp,79.32,33332770816,Machinery,Industrials,Common Stock
+VICI UN Equity,VICI Properties Inc,34.45,33178568704,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+TWTR UN Equity,Twitter Inc,42.52,32538265600,Interactive Media & Services,Communication Services,Common Stock
+WEC UN Equity,WEC Energy Group Inc,103.12,32527609856,Multi-Utilities,Utilities,Common Stock
+IFF UN Equity,International Flavors & Fragrances Inc,126.74,32298170368,Chemicals,Materials,Common Stock
+PEG UN Equity,Public Service Enterprise Group Inc,64.74,32296206336,Multi-Utilities,Utilities,Common Stock
+HES UN Equity,Hess Corp,102.89,31856277504,"Oil, Gas & Consumable Fuels",Energy,Common Stock
+PCAR UW Equity,PACCAR Inc,91.13,31687608320,Machinery,Industrials,Common Stock
+BIIB UW Equity,Biogen Inc,218.2,31663667200,Biotechnology,Health Care,Common Stock
+ALL UN Equity,Allstate Corp/The,117.0,31624583168,Insurance,Financials,Common Stock
+TSN UN Equity,Tyson Foods Inc,87.45,31617490944,Food Products,Consumer Staples,Common Stock
+MTB UN Equity,M&T Bank Corp,178.77,31394514944,Banks,Financials,Common Stock
+ES UN Equity,Eversource Energy,90.38,31311546368,Electric Utilities,Utilities,Common Stock
+VRSK UW Equity,Verisk Analytics Inc,198.38,31137716224,Professional Services,Industrials,Common Stock
+CMI UN Equity,Cummins Inc,220.02,31021131776,Machinery,Industrials,Common Stock
+CPRT UW Equity,Copart Inc,129.22,30712049664,Commercial Services & Supplies,Industrials,Common Stock
+FAST UW Equity,Fastenal Co,52.95,30429241344,Trading Companies & Distributors,Industrials,Common Stock
+MTD UN Equity,Mettler-Toledo International Inc,1347.72,30332608512,Life Sciences Tools & Services,Health Care,Common Stock
+GLW UN Equity,Corning Inc,35.8,30262388736,"Electronic Equipment, Instruments & Components",Information Technology,Common Stock
+KEYS UN Equity,Keysight Technologies Inc,167.26,30097754112,"Electronic Equipment, Instruments & Components",Information Technology,Common Stock
+PPG UN Equity,PPG Industries Inc,127.36,29929265152,Chemicals,Materials,Common Stock
+FRC UN Equity,First Republic Bank/CA,163.96,29829967872,Banks,Financials,Common Stock
+NDAQ UW Equity,Nasdaq Inc,182.07,29812518912,Capital Markets,Financials,Common Stock
+BAX UN Equity,Baxter International Inc,58.59,29506551808,Health Care Equipment & Supplies,Health Care,Common Stock
+DD UN Equity,DuPont de Nemours Inc,58.88,29493104640,Chemicals,Materials,Common Stock
+ROST UW Equity,Ross Stores Inc,84.23,29474299904,Specialty Retail,Consumer Discretionary,Common Stock
+LVS UN Equity,Las Vegas Sands Corp,38.37,29320669184,"Hotels, Restaurants & Leisure",Consumer Discretionary,Common Stock
+ON UW Equity,ON Semiconductor Corp,67.63,29299775488,Semiconductors & Semiconductor Equipment,Information Technology,Common Stock
+ABC UN Equity,AmerisourceBergen Corp,141.31,29287641088,Health Care Providers & Services,Health Care,Common Stock
+ROK UN Equity,Rockwell Automation Inc,252.24,29117419520,Electrical Equipment,Industrials,Common Stock
+AMP UN Equity,Ameriprise Financial Inc,269.06,29103015936,Capital Markets,Financials,Common Stock
+AME UN Equity,AMETEK Inc,126.25,28984262656,Electrical Equipment,Industrials,Common Stock
+AVB UN Equity,AvalonBay Communities Inc,204.91,28652754944,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+AWK UN Equity,American Water Works Co Inc,155.64,28293246976,Water Utilities,Utilities,Common Stock
+EQR UN Equity,Equity Residential,75.22,28291614720,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+GWW UN Equity,WW Grainger Inc,556.02,28285401088,Trading Companies & Distributors,Industrials,Common Stock
+TROW UW Equity,T Rowe Price Group Inc,125.04,28220481536,Capital Markets,Financials,Common Stock
+DFS UN Equity,Discover Financial Services,102.35,27959083008,Consumer Finance,Financials,Common Stock
+LYB UN Equity,LyondellBasell Industries NV,85.61,27926495232,Chemicals,Materials,Common Stock
+ALB UN Equity,Albemarle Corp,237.99,27875473408,Chemicals,Materials,Common Stock
+CBRE UN Equity,CBRE Group Inc,83.97,26968768512,Real Estate Management & Development,Real Estate,Common Stock
+HRL UN Equity,Hormel Foods Corp,48.91,26707578880,Food Products,Consumer Staples,Common Stock
+APTV UN Equity,Aptiv PLC,98.41,26662494208,Auto Components,Consumer Discretionary,Common Stock
+DHI UN Equity,DR Horton Inc,76.35,26530211840,Household Durables,Consumer Discretionary,Common Stock
+EXR UN Equity,Extra Space Storage Inc,197.22,26410131456,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+OKE UN Equity,ONEOK Inc,58.55,26149367808,"Oil, Gas & Consumable Fuels",Energy,Common Stock
+ARE UN Equity,Alexandria Real Estate Equities Inc,159.78,26071029760,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+EIX UN Equity,Edison International,68.26,26036547584,Electric Utilities,Utilities,Common Stock
+EFX UN Equity,Equifax Inc,212.45,26003927040,Professional Services,Industrials,Common Stock
+WY UN Equity,Weyerhaeuser Co,35.12,25999863808,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+STT UN Equity,State Street Corp,70.66,25975984128,Capital Markets,Financials,Common Stock
+EBAY UW Equity,eBay Inc,47.28,25974112256,Internet & Direct Marketing Retail,Consumer Discretionary,Common Stock
+K UN Equity,Kellogg Co,75.04,25522085888,Food Products,Consumer Staples,Common Stock
+WST UN Equity,West Pharmaceutical Services Inc,341.7,25302196224,Life Sciences Tools & Services,Health Care,Common Stock
+HAL UN Equity,Halliburton Co,27.79,25203982336,Energy Equipment & Services,Energy,Common Stock
+DTE UN Equity,DTE Energy Co,129.1,25012074496,Multi-Utilities,Utilities,Common Stock
+MPWR UW Equity,Monolithic Power Systems Inc,532.33,24907188224,Semiconductors & Semiconductor Equipment,Information Technology,Common Stock
+ANSS UW Equity,ANSYS Inc,285.48,24856363008,Software,Information Technology,Common Stock
+EPAM UN Equity,EPAM Systems Inc,427.39,24518266880,IT Services,Information Technology,Common Stock
+BKR UW Equity,Baker Hughes Co,24.06,24511229952,Energy Equipment & Services,Energy,Common Stock
+SIVB UW Equity,SVB Financial Group,413.21,24412995584,Banks,Financials,Common Stock
+CDW UW Equity,CDW Corp/DE,179.69,24301856768,"Electronic Equipment, Instruments & Components",Information Technology,Common Stock
+CEG UW Equity,Constellation Energy Corp,74.3,24271130624,Electric Utilities,Utilities,Common Stock
+LEN UN Equity,Lennar Corp,84.73,24032892928,Household Durables,Consumer Discretionary,Common Stock
+ETR UN Equity,Entergy Corp,117.74,23950434304,Electric Utilities,Utilities,Common Stock
+DRE UN Equity,Duke Realty Corp,62.12,23905964032,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+FITB UW Equity,Fifth Third Bancorp,34.67,23790192640,Banks,Financials,Common Stock
+ZBH UN Equity,Zimmer Biomet Holdings Inc,113.26,23764162560,Health Care Equipment & Supplies,Health Care,Common Stock
+MKC UN Equity,McCormick & Co Inc/MD,88.33,23695798272,Food Products,Consumer Staples,Common Stock
+AEE UN Equity,Ameren Corp,91.3,23563755520,Multi-Utilities,Utilities,Common Stock
+IT UN Equity,Gartner Inc,295.44,23367501824,IT Services,Information Technology,Common Stock
+FTV UN Equity,Fortive Corp,65.27,23216345088,Machinery,Industrials,Common Stock
+LUV UN Equity,Southwest Airlines Co,38.81,23027918848,Airlines,Industrials,Common Stock
+LH UN Equity,Laboratory Corp of America Holdings,254.67,23022168064,Health Care Providers & Services,Health Care,Common Stock
+WTW UW Equity,Willis Towers Watson PLC,208.81,22961909760,Insurance,Financials,Common Stock
+ALGN UW Equity,Align Technology Inc,293.89,22955214848,Health Care Equipment & Supplies,Health Care,Common Stock
+VMC UN Equity,Vulcan Materials Co,172.02,22861625344,Construction Materials,Materials,Common Stock
+URI UN Equity,United Rentals Inc,323.43,22635366400,Trading Companies & Distributors,Industrials,Common Stock
+LYV UN Equity,Live Nation Entertainment Inc,96.76,22252072960,Entertainment,Communication Services,Common Stock
+CTRA UN Equity,Coterra Energy Inc,27.93,22220974080,"Oil, Gas & Consumable Fuels",Energy,Common Stock
+PAYC UN Equity,Paycom Software Inc,370.01,22210349056,Software,Information Technology,Common Stock
+MLM UN Equity,Martin Marietta Materials Inc,355.93,22200827904,Construction Materials,Materials,Common Stock
+RJF UN Equity,Raymond James Financial Inc,102.3,22045650944,Capital Markets,Financials,Common Stock
+FE UN Equity,FirstEnergy Corp,38.37,21924438016,Electric Utilities,Utilities,Common Stock
+GPC UN Equity,Genuine Parts Co,150.98,21353244672,Distributors,Consumer Discretionary,Common Stock
+VRSN UW Equity,VeriSign Inc,198.7,21317181440,IT Services,Information Technology,Common Stock
+STE UN Equity,STERIS PLC,211.98,21214965760,Health Care Equipment & Supplies,Health Care,Common Stock
+TTWO UW Equity,Take-Two Interactive Software Inc,127.16,21170692096,Entertainment,Communication Services,Common Stock
+CHD UN Equity,Church & Dwight Co Inc,87.0,21133115392,Household Products,Consumer Staples,Common Stock
+DAL UN Equity,Delta Air Lines Inc,32.94,21121058816,Airlines,Industrials,Common Stock
+FANG UW Equity,Diamondback Energy Inc,121.37,21050542080,"Oil, Gas & Consumable Fuels",Energy,Common Stock
+TSCO UW Equity,Tractor Supply Co,189.36,21018976256,Specialty Retail,Consumer Discretionary,Common Stock
+NTRS UW Equity,Northern Trust Corp,99.86,20809478144,Capital Markets,Financials,Common Stock
+HIG UN Equity,Hartford Financial Services Group Inc/Th,64.16,20732815360,Insurance,Financials,Common Stock
+MAA UN Equity,Mid-America Apartment Communities Inc,179.54,20725886976,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+PPL UN Equity,PPL Corp,28.07,20664707072,Electric Utilities,Utilities,Common Stock
+WAT UN Equity,Waters Corp,337.87,20230277120,Life Sciences Tools & Services,Health Care,Common Stock
+IR UN Equity,Ingersoll Rand Inc,49.79,20074385408,Machinery,Industrials,Common Stock
+RF UN Equity,Regions Financial Corp,21.35,19949361152,Banks,Financials,Common Stock
+CF UN Equity,CF Industries Holdings Inc,100.05,19936016384,Chemicals,Materials,Common Stock
+CTLT UN Equity,Catalent Inc,110.56,19813816320,Pharmaceuticals,Health Care,Common Stock
+CNP UN Equity,CenterPoint Energy Inc,31.47,19808237568,Multi-Utilities,Utilities,Common Stock
+BR UN Equity,Broadridge Financial Solutions Inc,167.85,19676524544,IT Services,Information Technology,Common Stock
+CMS UN Equity,CMS Energy Corp,67.61,19620124672,Multi-Utilities,Utilities,Common Stock
+PWR UN Equity,Quanta Services Inc,136.91,19581272064,Construction & Engineering,Industrials,Common Stock
+ULTA UW Equity,Ulta Beauty Inc,377.8,19576866816,Specialty Retail,Consumer Discretionary,Common Stock
+VTR UN Equity,Ventas Inc,48.95,19565940736,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+HBAN UW Equity,Huntington Bancshares Inc/OH,13.45,19397513216,Banks,Financials,Common Stock
+PKI UN Equity,PerkinElmer Inc,153.72,19391543296,Life Sciences Tools & Services,Health Care,Common Stock
+DOV UN Equity,Dover Corp,134.03,19239913472,Machinery,Industrials,Common Stock
+MTCH UW Equity,Match Group Inc,67.78,19180822528,Interactive Media & Services,Communication Services,Common Stock
+JBHT UW Equity,JB Hunt Transport Services Inc,183.6,19060092928,Road & Rail,Industrials,Common Stock
+MOH UN Equity,Molina Healthcare Inc,324.91,18877270016,Health Care Providers & Services,Health Care,Common Stock
+GRMN UN Equity,Garmin Ltd,97.6,18822660096,Household Durables,Consumer Discretionary,Common Stock
+TDY UN Equity,Teledyne Technologies Inc,398.99,18698524672,"Electronic Equipment, Instruments & Components",Information Technology,Common Stock
+HPE UN Equity,Hewlett Packard Enterprise Co,14.36,18658385920,"Technology Hardware, Storage & Peripherals",Information Technology,Common Stock
+ROL UN Equity,Rollins Inc,37.6,18514890752,Commercial Services & Supplies,Industrials,Common Stock
+CFG UN Equity,Citizens Financial Group Inc,37.21,18442891264,Banks,Financials,Common Stock
+AMCR UN Equity,Amcor PLC,12.27,18438946816,Containers & Packaging,Materials,Common Stock
+BRO UN Equity,Brown & Brown Inc,64.9,18331281408,Insurance,Financials,Common Stock
+ESS UN Equity,Essex Property Trust Inc,278.75,18153414656,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+SWKS UW Equity,Skyworks Solutions Inc,112.66,18075799552,Semiconductors & Semiconductor Equipment,Information Technology,Common Stock
+MOS UN Equity,Mosaic Co/The,52.22,18029852672,Chemicals,Materials,Common Stock
+FOXA UW Equity,Fox Corp,33.33,17985454080,Media,Communication Services,Common Stock
+FOX UW Equity,Fox Corp,31.0,17985454080,Media,Communication Services,Common Stock
+HOLX UW Equity,Hologic Inc,71.4,17825232896,Health Care Equipment & Supplies,Health Care,Common Stock
+VFC UN Equity,VF Corp,45.67,17742544896,"Textiles, Apparel & Luxury Goods",Consumer Discretionary,Common Stock
+BALL UN Equity,Ball Corp,56.36,17714446336,Containers & Packaging,Materials,Common Stock
+SEDG UW Equity,SolarEdge Technologies Inc,315.5,17552871424,Semiconductors & Semiconductor Equipment,Information Technology,Common Stock
+FLT UN Equity,FleetCor Technologies Inc,226.63,17527748608,IT Services,Information Technology,Common Stock
+XYL UN Equity,Xylem Inc/NY,97.22,17517271040,Machinery,Industrials,Common Stock
+TYL UN Equity,Tyler Technologies Inc,418.92,17419311104,Software,Information Technology,Common Stock
+WAB UN Equity,Westinghouse Air Brake Technologies Corp,95.12,17299929088,Machinery,Industrials,Common Stock
+PFG UW Equity,Principal Financial Group Inc,68.22,17238118400,Insurance,Financials,Common Stock
+BBY UN Equity,Best Buy Co Inc,76.38,17198362624,Specialty Retail,Consumer Discretionary,Common Stock
+ZBRA UW Equity,Zebra Technologies Corp,331.7,17178723328,"Electronic Equipment, Instruments & Components",Information Technology,Common Stock
+CLX UN Equity,Clorox Co/The,138.99,17106888704,Household Products,Consumer Staples,Common Stock
+EXPD UW Equity,Expeditors International of Washington I,103.53,16937039872,Air Freight & Logistics,Industrials,Common Stock
+STX UW Equity,Seagate Technology Holdings PLC,80.95,16898751488,"Technology Hardware, Storage & Peripherals",Information Technology,Common Stock
+TRMB UW Equity,Trimble Inc,68.1,16865470464,"Electronic Equipment, Instruments & Components",Information Technology,Common Stock
+KEY UN Equity,KeyCorp,18.06,16843813888,Banks,Financials,Common Stock
+CAH UN Equity,Cardinal Health Inc,61.51,16757007360,Health Care Providers & Services,Health Care,Common Stock
+CAG UN Equity,Conagra Brands Inc,34.43,16529561600,Food Products,Consumer Staples,Common Stock
+WRB UN Equity,W R Berkley Corp,61.83,16401828864,Insurance,Financials,Common Stock
+SYF UN Equity,Synchrony Financial,33.9,16331630592,Consumer Finance,Financials,Common Stock
+COO UN Equity,Cooper Cos Inc/The,330.91,16325937152,Health Care Equipment & Supplies,Health Care,Common Stock
+J UN Equity,Jacobs Engineering Group Inc,127.5,16269715456,Professional Services,Industrials,Common Stock
+DGX UN Equity,Quest Diagnostics Inc,139.38,16252584960,Health Care Providers & Services,Health Care,Common Stock
+AES UN Equity,AES Corp/The,24.22,16177351680,Independent Power and Renewable Electricity Producers,Utilities,Common Stock
+EXPE UW Equity,Expedia Group Inc,102.52,16152907776,"Hotels, Restaurants & Leisure",Consumer Discretionary,Common Stock
+FDS UN Equity,FactSet Research Systems Inc,423.31,16077162496,Capital Markets,Financials,Common Stock
+INCY UW Equity,Incyte Corp,72.16,16050594816,Biotechnology,Health Care,Common Stock
+BIO UN Equity,Bio-Rad Laboratories Inc,539.65,16023110656,Life Sciences Tools & Services,Health Care,Common Stock
+IEX UN Equity,IDEX Corp,211.93,15995544576,Machinery,Industrials,Common Stock
+ATO UN Equity,Atmos Energy Corp,113.89,15932290048,Gas Utilities,Utilities,Common Stock
+NTAP UW Equity,NetApp Inc,72.37,15902197760,"Technology Hardware, Storage & Peripherals",Information Technology,Common Stock
+PARA UW Equity,Paramount Global,24.26,15880111104,Media,Communication Services,Common Stock
+GNRC UN Equity,Generac Holdings Inc,248.13,15838126080,Electrical Equipment,Industrials,Common Stock
+TER UW Equity,Teradyne Inc,100.75,15795753984,Semiconductors & Semiconductor Equipment,Information Technology,Common Stock
+KMX UN Equity,CarMax Inc,99.17,15784491008,Specialty Retail,Consumer Discretionary,Common Stock
+AVY UN Equity,Avery Dennison Corp,193.29,15706050560,Containers & Packaging,Materials,Common Stock
+EVRG UN Equity,Evergy Inc,67.83,15565511680,Electric Utilities,Utilities,Common Stock
+CINF UW Equity,Cincinnati Financial Corp,97.26,15483739136,Insurance,Financials,Common Stock
+AKAM UW Equity,Akamai Technologies Inc,96.28,15434183680,IT Services,Information Technology,Common Stock
+HWM UN Equity,Howmet Aerospace Inc,37.06,15394835456,Aerospace & Defense,Industrials,Common Stock
+JKHY UW Equity,Jack Henry & Associates Inc,211.07,15378941952,IT Services,Information Technology,Common Stock
+LNT UW Equity,Alliant Energy Corp,61.28,15376759808,Electric Utilities,Utilities,Common Stock
+DRI UN Equity,Darden Restaurants Inc,123.58,15317284864,"Hotels, Restaurants & Leisure",Consumer Discretionary,Common Stock
+IRM UN Equity,Iron Mountain Inc,52.3,15202821120,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+UDR UN Equity,UDR Inc,46.76,15193412608,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+IP UN Equity,International Paper Co,41.79,15128684544,Containers & Packaging,Materials,Common Stock
+LKQ UW Equity,LKQ Corp,55.08,15113400320,Distributors,Consumer Discretionary,Common Stock
+TECH UW Equity,Bio-Techne Corp,382.97,15025257472,Life Sciences Tools & Services,Health Care,Common Stock
+CPB UN Equity,Campbell Soup Co,49.42,14854447104,Food Products,Consumer Staples,Common Stock
+POOL UW Equity,Pool Corp,373.64,14792642560,Distributors,Consumer Discretionary,Common Stock
+MRO UN Equity,Marathon Oil Corp,21.77,14750992384,"Oil, Gas & Consumable Fuels",Energy,Common Stock
+WDC UW Equity,Western Digital Corp,47.09,14747072512,"Technology Hardware, Storage & Peripherals",Information Technology,Common Stock
+CPT UN Equity,Camden Property Trust,137.28,14624174080,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+NVR UN Equity,NVR Inc,4359.73,14311533568,Household Durables,Consumer Discretionary,Common Stock
+PEAK UN Equity,Healthpeak Properties Inc,26.51,14304304128,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+SWK UN Equity,Stanley Black & Decker Inc,95.97,14185882624,Machinery,Industrials,Common Stock
+SJM UN Equity,J M Smucker Co/The,133.08,14180772864,Food Products,Consumer Staples,Common Stock
+OMC UN Equity,Omnicom Group Inc,69.08,14150538240,Media,Communication Services,Common Stock
+PTC UW Equity,PTC Inc,120.3,14131205120,Software,Information Technology,Common Stock
+DPZ UN Equity,Domino's Pizza Inc,387.93,13920908288,"Hotels, Restaurants & Leisure",Consumer Discretionary,Common Stock
+ETSY UW Equity,Etsy Inc,109.38,13848480768,Internet & Direct Marketing Retail,Consumer Discretionary,Common Stock
+NLOK UW Equity,NortonLifeLock Inc,24.21,13833023488,Software,Information Technology,Common Stock
+BEN UN Equity,Franklin Resources Inc,27.65,13779573760,Capital Markets,Financials,Common Stock
+LDOS UN Equity,Leidos Holdings Inc,100.55,13729161216,Professional Services,Industrials,Common Stock
+MGM UN Equity,MGM Resorts International,34.71,13644575744,"Hotels, Restaurants & Leisure",Consumer Discretionary,Common Stock
+TXT UN Equity,Textron Inc,64.4,13622634496,Aerospace & Defense,Industrials,Common Stock
+CHRW UW Equity,CH Robinson Worldwide Inc,109.74,13594953728,Air Freight & Logistics,Industrials,Common Stock
+BXP UN Equity,Boston Properties Inc,86.59,13571655680,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+FMC UN Equity,FMC Corp,106.33,13393249280,Chemicals,Materials,Common Stock
+NDSN UW Equity,Nordson Corp,231.55,13316854784,Machinery,Industrials,Common Stock
+L UN Equity,Loews Corp,55.12,13281017856,Insurance,Financials,Common Stock
+ABMD UW Equity,ABIOMED Inc,291.5,13251848192,Health Care Equipment & Supplies,Health Care,Common Stock
+KIM UN Equity,Kimco Realty Corp,21.41,13241699328,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+CTXS UW Equity,Citrix Systems Inc,102.5,13005720576,Software,Information Technology,Common Stock
+HST UW Equity,Host Hotels & Resorts Inc,17.97,12846620672,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+CBOE UF Equity,Cboe Global Markets Inc,120.48,12778379264,Capital Markets,Financials,Common Stock
+PKG UN Equity,Packaging Corp of America,135.22,12675513344,Containers & Packaging,Materials,Common Stock
+UAL UW Equity,United Airlines Holdings Inc,37.82,12356885504,Airlines,Industrials,Common Stock
+CCL UN Equity,Carnival Corp,9.82,12045949952,"Hotels, Restaurants & Leisure",Consumer Discretionary,Common Stock
+CE UN Equity,Celanese Corp,110.85,12010447872,Chemicals,Materials,Common Stock
+NI UN Equity,NiSource Inc,29.47,11963435008,Multi-Utilities,Utilities,Common Stock
+MAS UN Equity,Masco Corp,52.72,11889396736,Building Products,Industrials,Common Stock
+SNA UN Equity,Snap-on Inc,223.0,11878738944,Machinery,Industrials,Common Stock
+VTRS UW Equity,Viatris Inc,9.73,11795940352,Pharmaceuticals,Health Care,Common Stock
+SBNY UW Equity,Signature Bank/New York NY,187.28,11785277440,Banks,Financials,Common Stock
+TFX UN Equity,Teleflex Inc,250.57,11753058304,Health Care Equipment & Supplies,Health Care,Common Stock
+TAP UN Equity,Molson Coors Beverage Co,54.07,11745627136,Beverages,Consumer Staples,Common Stock
+AAP UN Equity,Advance Auto Parts Inc,193.42,11728955392,Specialty Retail,Consumer Discretionary,Common Stock
+EMN UN Equity,Eastman Chemical Co,95.13,11682772992,Chemicals,Materials,Common Stock
+LW UN Equity,Lamb Weston Holdings Inc,81.26,11680985088,Food Products,Consumer Staples,Common Stock
+CRL UN Equity,Charles River Laboratories International,223.38,11361845248,Life Sciences Tools & Services,Health Care,Common Stock
+IPG UN Equity,Interpublic Group of Cos Inc/The,29.02,11347639296,Media,Communication Services,Common Stock
+LUMN UN Equity,Lumen Technologies Inc,10.68,11057425408,Diversified Telecommunication Services,Communication Services,Common Stock
+QRVO UW Equity,Qorvo Inc,106.09,10948914176,Semiconductors & Semiconductor Equipment,Information Technology,Common Stock
+REG UW Equity,Regency Centers Corp,62.84,10763348992,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+HAS UW Equity,Hasbro Inc,77.91,10758690816,Leisure Products,Consumer Discretionary,Common Stock
+APA UW Equity,APA Corp,31.75,10367335424,"Oil, Gas & Consumable Fuels",Energy,Common Stock
+FFIV UW Equity,F5 Inc,172.38,10267330560,Communications Equipment,Information Technology,Common Stock
+HSIC UW Equity,Henry Schein Inc,75.38,10260329472,Health Care Providers & Services,Health Care,Common Stock
+CMA UN Equity,Comerica Inc,78.19,10228797440,Banks,Financials,Common Stock
+CZR UW Equity,Caesars Entertainment Inc,47.67,10221254656,"Hotels, Restaurants & Leisure",Consumer Discretionary,Common Stock
+WRK UN Equity,Westrock Co,40.19,10220238848,Containers & Packaging,Materials,Common Stock
+DISH UW Equity,DISH Network Corp,19.2,10181854208,Media,Communication Services,Common Stock
+RCL UN Equity,Royal Caribbean Cruises Ltd,39.67,10118198272,"Hotels, Restaurants & Leisure",Consumer Discretionary,Common Stock
+RE UN Equity,Everest Re Group Ltd,255.66,10075676672,Insurance,Financials,Common Stock
+NWS UW Equity,News Corp,17.19,9998973952,Media,Communication Services,Common Stock
+NWSA UW Equity,News Corp,17.01,9998973952,Media,Communication Services,Common Stock
+CDAY UN Equity,Ceridian HCM Holding Inc,65.04,9954838528,Software,Information Technology,Common Stock
+MKTX UW Equity,MarketAxess Holdings Inc,264.23,9945619456,Capital Markets,Financials,Common Stock
+PHM UN Equity,PulteGroup Inc,42.38,9810897920,Household Durables,Consumer Discretionary,Common Stock
+AAL UW Equity,American Airlines Group Inc,14.74,9578729472,Airlines,Industrials,Common Stock
+GL UN Equity,Globe Life Inc,97.88,9537183744,Insurance,Financials,Common Stock
+AOS UN Equity,A O Smith Corp,60.6,9359554560,Building Products,Industrials,Common Stock
+WHR UN Equity,Whirlpool Corp,168.46,9182427136,Household Durables,Consumer Discretionary,Common Stock
+HII UN Equity,Huntington Ingalls Industries Inc,227.58,9091307520,Aerospace & Defense,Industrials,Common Stock
+JNPR UN Equity,Juniper Networks Inc,28.04,9045968896,Communications Equipment,Information Technology,Common Stock
+NRG UN Equity,NRG Energy Inc,38.46,9043759104,Electric Utilities,Utilities,Common Stock
+ALLE UN Equity,Allegion plc,102.22,8978804736,Building Products,Industrials,Common Stock
+BWA UN Equity,BorgWarner Inc,37.87,8968798208,Auto Components,Consumer Discretionary,Common Stock
+FBHS UN Equity,Fortune Brands Home & Security Inc,67.24,8695274496,Building Products,Industrials,Common Stock
+RHI UN Equity,Robert Half International Inc,78.86,8640522240,Professional Services,Industrials,Common Stock
+TPR UN Equity,Tapestry Inc,34.08,8581424640,"Textiles, Apparel & Luxury Goods",Consumer Discretionary,Common Stock
+FRT UN Equity,Federal Realty OP LP,105.75,8556040704,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+BBWI UN Equity,Bath & Body Works Inc,37.36,8529288192,Specialty Retail,Consumer Discretionary,Common Stock
+PNW UN Equity,Pinnacle West Capital Corp,75.42,8525749760,Electric Utilities,Utilities,Common Stock
+NLSN UN Equity,Nielsen Holdings PLC,23.04,8290583040,Professional Services,Industrials,Common Stock
+AIZ UN Equity,Assurant Inc,155.29,8262875648,Insurance,Financials,Common Stock
+NWL UW Equity,Newell Brands Inc,19.92,8238912000,Household Durables,Consumer Discretionary,Common Stock
+UHS UN Equity,Universal Health Services Inc,110.35,8207900160,Health Care Providers & Services,Health Care,Common Stock
+IVZ UN Equity,Invesco Ltd,17.92,8152527360,Capital Markets,Financials,Common Stock
+ZION UW Equity,Zions Bancorp NA,54.0,8125454336,Banks,Financials,Common Stock
+PNR UN Equity,Pentair PLC,49.1,8074981888,Machinery,Industrials,Common Stock
+SEE UN Equity,Sealed Air Corp,55.47,8055748608,Containers & Packaging,Materials,Common Stock
+OGN UN Equity,Organon & Co,31.5,8011390464,Pharmaceuticals,Health Care,Common Stock
+XRAY UW Equity,DENTSPLY SIRONA Inc,36.84,7937235456,Health Care Equipment & Supplies,Health Care,Common Stock
+DVA UN Equity,DaVita Inc,85.68,7822583808,Health Care Providers & Services,Health Care,Common Stock
+LNC UN Equity,Lincoln National Corp,45.94,7820185600,Insurance,Financials,Common Stock
+WYNN UW Equity,Wynn Resorts Ltd,66.71,7736022016,"Hotels, Restaurants & Leisure",Consumer Discretionary,Common Stock
+MHK UN Equity,Mohawk Industries Inc,119.97,7622144000,Household Durables,Consumer Discretionary,Common Stock
+RL UN Equity,Ralph Lauren Corp,100.22,6986250240,"Textiles, Apparel & Luxury Goods",Consumer Discretionary,Common Stock
+ALK UN Equity,Alaska Air Group Inc,46.55,5900901888,Airlines,Industrials,Common Stock
+DXC UN Equity,DXC Technology Co,25.54,5871054336,IT Services,Information Technology,Common Stock
+NCLH UN Equity,Norwegian Cruise Line Holdings Ltd,13.21,5536325632,"Hotels, Restaurants & Leisure",Consumer Discretionary,Common Stock
+PENN UW Equity,Penn Entertainment Inc,34.15,5414910464,"Hotels, Restaurants & Leisure",Consumer Discretionary,Common Stock
+VNO UN Equity,Vornado Realty Trust,27.66,5304498176,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+PVH UN Equity,PVH Corp,64.38,4310919680,"Textiles, Apparel & Luxury Goods",Consumer Discretionary,Common Stock
+IBKR UW Equity,Interactive Brokers Group Inc,61.42,26135492608,Capital Markets,Financials,Common Stock
+EQT UN Equity,EQT Corp,42.28,15641773056,"Oil, Gas & Consumable Fuels",Energy,Common Stock
+CSL UN Equity,Carlisle Cos Inc,300.61,15548837888,Building Products,Industrials,Common Stock
+TRGP UN Equity,Targa Resources Corp,63.72,14436238336,"Oil, Gas & Consumable Fuels",Energy,Common Stock
+STLD UW Equity,Steel Dynamics Inc,78.78,14386073600,Metals & Mining,Materials,Common Stock
+PCTY UW Equity,Paylocity Holding Corp,255.26,14110175232,Software,Information Technology,Common Stock
+AZPN UW Equity,Aspen Technology Inc,213.12,13704813568,Software,Information Technology,Common Stock
+RGEN UW Equity,Repligen Corp,246.27,13665817600,Life Sciences Tools & Services,Health Care,Common Stock
+WTRG UN Equity,Essential Utilities Inc,50.73,13294693376,Water Utilities,Utilities,Common Stock
+FHN UN Equity,First Horizon Corp,23.0,12342018048,Banks,Financials,Common Stock
+GME UN Equity,GameStop Corp,40.02,12186735616,Specialty Retail,Consumer Discretionary,Common Stock
+FICO UN Equity,Fair Isaac Corp,482.47,12183580672,Software,Information Technology,Common Stock
+DAR UN Equity,Darling Ingredients Inc,72.4,11693618176,Food Products,Consumer Staples,Common Stock
+HUBB UN Equity,Hubbell Inc,213.52,11461274624,Electrical Equipment,Industrials,Common Stock
+RPM UN Equity,RPM International Inc,88.82,11458558976,Chemicals,Materials,Common Stock
+GGG UN Equity,Graco Inc,67.55,11423756288,Machinery,Industrials,Common Stock
+RS UN Equity,Reliance Steel & Aluminum Co,188.61,11372076032,Metals & Mining,Materials,Common Stock
+Y UN Equity,Alleghany Corp,837.2,11264906240,Insurance,Financials,Common Stock
+REXR UN Equity,Rexford Industrial Realty Inc,64.77,11080012800,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+WOLF UN Equity,Wolfspeed Inc,89.3,11040580608,Semiconductors & Semiconductor Equipment,Information Technology,Common Stock
+RCM UW Equity,R1 RCM Inc,26.42,10992603136,Health Care Providers & Services,Health Care,Common Stock
+AFG UN Equity,American Financial Group Inc/OH,128.09,10908439552,Insurance,Financials,Common Stock
+FSLR UW Equity,First Solar Inc,101.9,10861985792,Semiconductors & Semiconductor Equipment,Information Technology,Common Stock
+LSI UN Equity,Life Storage Inc,128.66,10856937472,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+WSO UN Equity,Watsco Inc,282.05,10776829952,Trading Companies & Distributors,Industrials,Common Stock
+BLDR UN Equity,Builders FirstSource Inc,68.37,10670863360,Building Products,Industrials,Common Stock
+DINO UN Equity,HF Sinclair Corp,46.3,10335536128,"Oil, Gas & Consumable Fuels",Energy,Common Stock
+LAMR UW Equity,Lamar Advertising Co,100.62,10216412160,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+SCI UN Equity,Service Corp International/US,64.7,10201569280,Diversified Consumer Services,Consumer Discretionary,Common Stock
+WSM UN Equity,Williams-Sonoma Inc,146.98,10106787840,Specialty Retail,Consumer Discretionary,Common Stock
+ACM UN Equity,AECOM,71.57,10094124032,Construction & Engineering,Industrials,Common Stock
+UTHR UW Equity,United Therapeutics Corp,221.65,10088687616,Biotechnology,Health Care,Common Stock
+EWBC UW Equity,East West Bancorp Inc,70.23,9966230528,Banks,Financials,Common Stock
+NBIX UW Equity,Neurocrine Biosciences Inc,104.04,9950314496,Biotechnology,Health Care,Common Stock
+SNX UN Equity,TD SYNNEX Corp,101.96,9772681216,"Electronic Equipment, Instruments & Components",Information Technology,Common Stock
+JAZZ UW Equity,Jazz Pharmaceuticals PLC,153.72,9635282944,Pharmaceuticals,Health Care,Common Stock
+HR UN Equity,Healthcare Realty Trust Inc,25.12,9563332608,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+BJ UN Equity,BJ's Wholesale Club Holdings Inc,70.5,9530319872,Food & Staples Retailing,Consumer Staples,Common Stock
+MPW UN Equity,Medical Properties Trust Inc,15.88,9509563392,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+CLF UN Equity,Cleveland-Cliffs Inc,18.31,9471718400,Metals & Mining,Materials,Common Stock
+BRKR UW Equity,Bruker Corp,62.48,9255674880,Life Sciences Tools & Services,Health Care,Common Stock
+TTC UN Equity,Toro Co/The,87.32,9131167744,Machinery,Industrials,Common Stock
+ACC UN Equity,American Campus Communities Inc,65.4,9122190336,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+MANH UW Equity,Manhattan Associates Inc,145.0,9094216704,Software,Information Technology,Common Stock
+RRX UN Equity,Regal Rexnord Corp,136.67,9085484032,Electrical Equipment,Industrials,Common Stock
+AA UN Equity,Alcoa Corp,49.52,8909894656,Metals & Mining,Materials,Common Stock
+LSCC UW Equity,Lattice Semiconductor Corp,64.52,8859678720,Semiconductors & Semiconductor Equipment,Information Technology,Common Stock
+CAR UW Equity,Avis Budget Group Inc,184.11,8849494016,Road & Rail,Industrials,Common Stock
+KNX UN Equity,Knight-Swift Transportation Holdings Inc,54.38,8736962560,Road & Rail,Industrials,Common Stock
+G UN Equity,Genpact Ltd,46.92,8687187968,IT Services,Information Technology,Common Stock
+LII UN Equity,Lennox International Inc,244.07,8647740416,Building Products,Industrials,Common Stock
+CBSH UW Equity,Commerce Bancshares Inc/MO,71.25,8541647360,Banks,Financials,Common Stock
+MASI UW Equity,Masimo Corp,153.46,8517701120,Health Care Equipment & Supplies,Health Care,Common Stock
+LEA UN Equity,Lear Corp,143.0,8490335744,Auto Components,Consumer Discretionary,Common Stock
+CFR UN Equity,Cullen/Frost Bankers Inc,131.57,8437318144,Banks,Financials,Common Stock
+DECK UN Equity,Deckers Outdoor Corp,317.32,8418831360,"Textiles, Apparel & Luxury Goods",Consumer Discretionary,Common Stock
+JBL UN Equity,Jabil Inc,61.12,8407335936,"Electronic Equipment, Instruments & Components",Information Technology,Common Stock
+UGI UN Equity,UGI Corp,40.05,8385726464,Gas Utilities,Utilities,Common Stock
+JLL UN Equity,Jones Lang LaSalle Inc,174.8,8376007168,Real Estate Management & Development,Real Estate,Common Stock
+CGNX UW Equity,Cognex Corp,47.94,8312650240,"Electronic Equipment, Instruments & Components",Information Technology,Common Stock
+OC UN Equity,Owens Corning,86.3,8305382912,Building Products,Industrials,Common Stock
+RGA UN Equity,Reinsurance Group of America Inc,123.42,8270036992,Insurance,Financials,Common Stock
+LECO UW Equity,Lincoln Electric Holdings Inc,142.61,8259876864,Machinery,Industrials,Common Stock
+AXON UW Equity,Axon Enterprise Inc,116.29,8257921536,Aerospace & Defense,Industrials,Common Stock
+WBS UN Equity,Webster Financial Corp,46.58,8190329344,Banks,Financials,Common Stock
+NNN UN Equity,National Retail Properties Inc,46.1,8164850176,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+RRC UN Equity,Range Resources Corp,30.74,8081119232,"Oil, Gas & Consumable Fuels",Energy,Common Stock
+CABO UN Equity,Cable One Inc,1371.65,8064399360,Media,Communication Services,Common Stock
+OGE UN Equity,OGE Energy Corp,40.25,8058157568,Electric Utilities,Utilities,Common Stock
+SWAV UW Equity,Shockwave Medical Inc,223.14,7986608128,Health Care Equipment & Supplies,Health Care,Common Stock
+MIDD UW Equity,Middleby Corp/The,146.73,7980619776,Machinery,Industrials,Common Stock
+MAT UW Equity,Mattel Inc,22.49,7927586304,Leisure Products,Consumer Discretionary,Common Stock
+CHDN UW Equity,Churchill Downs Inc,210.17,7922956288,"Hotels, Restaurants & Leisure",Consumer Discretionary,Common Stock
+CIEN UN Equity,Ciena Corp,52.89,7917886464,Communications Equipment,Information Technology,Common Stock
+AGCO UN Equity,AGCO Corp,106.21,7917284864,Machinery,Industrials,Common Stock
+PFGC UN Equity,Performance Food Group Co,50.91,7891148800,Food & Staples Retailing,Consumer Staples,Common Stock
+STOR UN Equity,STORE Capital Corp,27.9,7886989312,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+DKS UN Equity,Dick's Sporting Goods Inc,97.55,7855436800,Specialty Retail,Consumer Discretionary,Common Stock
+TTEK UW Equity,Tetra Tech Inc,145.59,7762671616,Commercial Services & Supplies,Industrials,Common Stock
+CASY UW Equity,Casey's General Stores Inc,207.38,7724863488,Food & Staples Retailing,Consumer Staples,Common Stock
+FIVE UW Equity,Five Below Inc,138.56,7688713728,Specialty Retail,Consumer Discretionary,Common Stock
+OLN UN Equity,Olin Corp,52.87,7673789952,Chemicals,Materials,Common Stock
+JEF UN Equity,Jefferies Financial Group Inc,32.98,7666296320,Capital Markets,Financials,Common Stock
+SWN UN Equity,Southwestern Energy Co,6.83,7610714624,"Oil, Gas & Consumable Fuels",Energy,Common Stock
+LAD UN Equity,Lithia Motors Inc,272.49,7555292160,Specialty Retail,Consumer Discretionary,Common Stock
+SEIC UW Equity,SEI Investments Co,55.63,7537254912,Capital Markets,Financials,Common Stock
+OHI UN Equity,Omega Healthcare Investors Inc,31.99,7489197568,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+ARW UN Equity,Arrow Electronics Inc,115.77,7429231616,"Electronic Equipment, Instruments & Components",Information Technology,Common Stock
+EGP UN Equity,EastGroup Properties Inc,170.03,7407529472,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+GTLS UN Equity,Chart Industries Inc,201.92,7395308544,Machinery,Industrials,Common Stock
+ACHC UW Equity,Acadia Healthcare Co Inc,81.37,7391732736,Health Care Providers & Services,Health Care,Common Stock
+WEX UN Equity,WEX Inc,166.14,7339090432,IT Services,Information Technology,Common Stock
+TREX UN Equity,Trex Co Inc,64.61,7313802752,Building Products,Industrials,Common Stock
+PPC UW Equity,Pilgrim's Pride Corp,30.13,7202455040,Food Products,Consumer Staples,Common Stock
+UNM UN Equity,Unum Group,35.9,7180014592,Insurance,Financials,Common Stock
+CHE UN Equity,Chemed Corp,478.25,7128290304,Health Care Providers & Services,Health Care,Common Stock
+CNXC UW Equity,Concentrix Corp,136.71,7115009536,IT Services,Information Technology,Common Stock
+CPRI UN Equity,Capri Holdings Ltd,49.6,7083347456,"Textiles, Apparel & Luxury Goods",Consumer Discretionary,Common Stock
+RH UN Equity,RH,286.87,7080293376,Specialty Retail,Consumer Discretionary,Common Stock
+KBR UN Equity,KBR Inc,50.92,7080099328,Professional Services,Industrials,Common Stock
+RUN UW Equity,Sunrun Inc,33.24,7050343936,Electrical Equipment,Industrials,Common Stock
+FR UN Equity,First Industrial Realty Trust Inc,53.01,7001108992,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+SYNH UW Equity,Syneos Health Inc,67.96,6976299008,Life Sciences Tools & Services,Health Care,Common Stock
+ORI UN Equity,Old Republic International Corp,22.56,6969619968,Insurance,Financials,Common Stock
+THC UN Equity,Tenet Healthcare Corp,64.37,6944796160,Health Care Providers & Services,Health Care,Common Stock
+ATR UN Equity,AptarGroup Inc,105.65,6902854144,Containers & Packaging,Materials,Common Stock
+EXEL UW Equity,Exelixis Inc,21.52,6902340096,Biotechnology,Health Care,Common Stock
+XPO UN Equity,XPO Logistics Inc,59.86,6883899904,Road & Rail,Industrials,Common Stock
+AIRC UN Equity,Apartment Income REIT Corp,43.81,6863887872,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+PII UN Equity,Polaris Inc,115.08,6853660160,Leisure Products,Consumer Discretionary,Common Stock
+IIVI UW Equity,II-VI Inc,52.99,6837611008,"Electronic Equipment, Instruments & Components",Information Technology,Common Stock
+MP UN Equity,MP Materials Corp,38.48,6831513600,Metals & Mining,Materials,Common Stock
+NOV UN Equity,NOV Inc,17.29,6791542784,Energy Equipment & Services,Energy,Common Stock
+AN UN Equity,AutoNation Inc,120.85,6765616128,Specialty Retail,Consumer Discretionary,Common Stock
+PB UN Equity,Prosperity Bancshares Inc,73.96,6746117120,Banks,Financials,Common Stock
+RGLD UW Equity,Royal Gold Inc,102.67,6739224064,Metals & Mining,Materials,Common Stock
+CACI UN Equity,CACI International Inc,287.4,6728795648,Professional Services,Industrials,Common Stock
+MKSI UW Equity,MKS Instruments Inc,120.65,6725317632,Semiconductors & Semiconductor Equipment,Information Technology,Common Stock
+NVST UN Equity,Envista Holdings Corp,41.07,6710449152,Health Care Equipment & Supplies,Health Care,Common Stock
+DCI UN Equity,Donaldson Co Inc,54.6,6708463104,Machinery,Industrials,Common Stock
+NSA UN Equity,National Storage Affiliates Trust,53.33,6697161216,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+MUSA UN Equity,Murphy USA Inc,286.0,6678534144,Specialty Retail,Consumer Discretionary,Common Stock
+BRX UN Equity,Brixmor Property Group Inc,22.22,6658645504,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+NFG UN Equity,National Fuel Gas Co,71.23,6515825664,Gas Utilities,Utilities,Common Stock
+ITT UN Equity,ITT Inc,78.37,6481199104,Machinery,Industrials,Common Stock
+SF UN Equity,Stifel Financial Corp,60.96,6470548480,Capital Markets,Financials,Common Stock
+GNTX UW Equity,Gentex Corp,27.39,6440199680,Auto Components,Consumer Discretionary,Common Stock
+SAIA UW Equity,Saia Inc,241.41,6376057344,Road & Rail,Industrials,Common Stock
+HRB UN Equity,H&R Block Inc,39.95,6375786496,Diversified Consumer Services,Consumer Discretionary,Common Stock
+BLD UN Equity,TopBuild Corp,196.63,6366641664,Household Durables,Consumer Discretionary,Common Stock
+FFIN UW Equity,First Financial Bankshares Inc,44.65,6364525056,Banks,Financials,Common Stock
+MTDR UN Equity,Matador Resources Co,53.74,6347665920,"Oil, Gas & Consumable Fuels",Energy,Common Stock
+PEN UN Equity,Penumbra Inc,166.83,6320915968,Health Care Equipment & Supplies,Health Care,Common Stock
+WU UN Equity,Western Union Co/The,16.37,6314799104,IT Services,Information Technology,Common Stock
+COTY UN Equity,Coty Inc,7.52,6310716928,Personal Products,Consumer Staples,Common Stock
+LFUS UW Equity,Littelfuse Inc,254.0,6287747072,"Electronic Equipment, Instruments & Components",Information Technology,Common Stock
+LITE UW Equity,Lumentum Holdings Inc,90.99,6278309888,Communications Equipment,Information Technology,Common Stock
+OPCH UW Equity,Option Care Health Inc,34.49,6272401920,Health Care Providers & Services,Health Care,Common Stock
+GMED UN Equity,Globus Medical Inc,62.93,6259477504,Health Care Equipment & Supplies,Health Care,Common Stock
+CHH UN Equity,Choice Hotels International Inc,111.78,6235083776,"Hotels, Restaurants & Leisure",Consumer Discretionary,Common Stock
+HALO UW Equity,Halozyme Therapeutics Inc,45.13,6225669120,Biotechnology,Health Care,Common Stock
+PNFP UW Equity,Pinnacle Financial Partners Inc,80.82,6176025088,Banks,Financials,Common Stock
+QDEL UW Equity,QuidelOrtho Corp,92.2,6173061120,Health Care Equipment & Supplies,Health Care,Common Stock
+MTZ UN Equity,MasTec Inc,81.29,6140645888,Construction & Engineering,Industrials,Common Stock
+WH UN Equity,Wyndham Hotels & Resorts Inc,67.87,6130399232,"Hotels, Restaurants & Leisure",Consumer Discretionary,Common Stock
+SKX UN Equity,Skechers USA Inc,39.33,6124982784,"Textiles, Apparel & Luxury Goods",Consumer Discretionary,Common Stock
+SAIL UN Equity,Sailpoint Technologies Holdings Inc,64.49,6083939840,Software,Information Technology,Common Stock
+INGR UN Equity,Ingredion Inc,91.75,6075646464,Food Products,Consumer Staples,Common Stock
+KRC UN Equity,Kilroy Realty Corp,51.52,6021192192,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+SON UN Equity,Sonoco Products Co,61.12,5959569920,Containers & Packaging,Materials,Common Stock
+CLH UN Equity,Clean Harbors Inc,110.09,5956224000,Commercial Services & Supplies,Industrials,Common Stock
+VLY UW Equity,Valley National Bancorp,11.73,5939233792,Banks,Financials,Common Stock
+MDU UN Equity,MDU Resources Group Inc,29.2,5937841664,Construction & Engineering,Industrials,Common Stock
+OLED UW Equity,Universal Display Corp,125.41,5922995712,Semiconductors & Semiconductor Equipment,Information Technology,Common Stock
+VOYA UN Equity,Voya Financial Inc,60.43,5917224448,Diversified Financial Services,Financials,Common Stock
+TXRH UW Equity,Texas Roadhouse Inc,88.39,5909169664,"Hotels, Restaurants & Leisure",Consumer Discretionary,Common Stock
+FLO UN Equity,Flowers Foods Inc,27.68,5869334016,Food Products,Consumer Staples,Common Stock
+AYI UN Equity,Acuity Brands Inc,178.97,5854659072,Electrical Equipment,Industrials,Common Stock
+BC UN Equity,Brunswick Corp/DE,78.48,5836510720,Leisure Products,Consumer Discretionary,Common Stock
+SNV UN Equity,Synovus Financial Corp,40.13,5833691136,Banks,Financials,Common Stock
+KNSL UN Equity,Kinsale Capital Group Inc,254.18,5821689856,Insurance,Financials,Common Stock
+SRC UN Equity,Spirit Realty Capital Inc,42.58,5805428736,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+VMI UN Equity,Valmont Industries Inc,271.82,5803554304,Construction & Engineering,Industrials,Common Stock
+BYD UN Equity,Boyd Gaming Corp,54.22,5792987648,"Hotels, Restaurants & Leisure",Consumer Discretionary,Common Stock
+PRGO UN Equity,Perrigo Co PLC,42.98,5783030784,Pharmaceuticals,Health Care,Common Stock
+NVT UN Equity,nVent Electric PLC,34.7,5777144832,Electrical Equipment,Industrials,Common Stock
+SYNA UW Equity,Synaptics Inc,145.75,5774787072,Semiconductors & Semiconductor Equipment,Information Technology,Common Stock
+IRDM UW Equity,Iridium Communications Inc,45.47,5773500416,Diversified Telecommunication Services,Communication Services,Common Stock
+FAF UN Equity,First American Financial Corp,55.41,5771601920,Insurance,Financials,Common Stock
+VAC UN Equity,Marriott Vacations Worldwide Corp,138.79,5750358528,"Hotels, Restaurants & Leisure",Consumer Discretionary,Common Stock
+WWD UW Equity,Woodward Inc,95.23,5729408000,Aerospace & Defense,Industrials,Common Stock
+GXO UN Equity,GXO Logistics Inc,48.07,5701828608,Air Freight & Logistics,Industrials,Common Stock
+GBCI UN Equity,Glacier Bancorp Inc,51.15,5665651712,Banks,Financials,Common Stock
+EME UN Equity,EMCOR Group Inc,114.4,5645442560,Construction & Engineering,Industrials,Common Stock
+ASH UN Equity,Ashland Inc,103.78,5618586624,Chemicals,Materials,Common Stock
+LSTR UW Equity,Landstar System Inc,153.89,5605810176,Road & Rail,Industrials,Common Stock
+CR UN Equity,Crane Holdings Co,99.81,5599173632,Machinery,Industrials,Common Stock
+FCN UN Equity,FTI Consulting Inc,160.98,5560176640,Professional Services,Industrials,Common Stock
+CW UN Equity,Curtiss-Wright Corp,144.5,5548017664,Aerospace & Defense,Industrials,Common Stock
+AMKR UW Equity,Amkor Technology Inc,22.65,5545582592,Semiconductors & Semiconductor Equipment,Information Technology,Common Stock
+IDA UN Equity,IDACORP Inc,109.49,5535818752,Electric Utilities,Utilities,Common Stock
+X UN Equity,United States Steel Corp,23.32,5532133376,Metals & Mining,Materials,Common Stock
+TOL UN Equity,Toll Brothers Inc,48.05,5524644864,Household Durables,Consumer Discretionary,Common Stock
+RNR UN Equity,RenaissanceRe Holdings Ltd,125.3,5476283392,Insurance,Financials,Common Stock
+HOG UN Equity,Harley-Davidson Inc,37.27,5447452160,Automobiles,Consumer Discretionary,Common Stock
+NOVT UW Equity,Novanta Inc,152.41,5441681920,"Electronic Equipment, Instruments & Components",Information Technology,Common Stock
+OSK UN Equity,Oshkosh Corp,83.2,5438914048,Machinery,Industrials,Common Stock
+POST UN Equity,Post Holdings Inc,90.04,5380636160,Food Products,Consumer Staples,Common Stock
+LEG UN Equity,Leggett & Platt Inc,40.53,5375035392,Household Durables,Consumer Discretionary,Common Stock
+CC UN Equity,Chemours Co/The,34.49,5350721536,Chemicals,Materials,Common Stock
+RYN UN Equity,Rayonier Inc,36.47,5340004864,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+PDCE UW Equity,PDC Energy Inc,55.11,5307484672,"Oil, Gas & Consumable Fuels",Energy,Common Stock
+EHC UN Equity,Encompass Health Corp,52.91,5279234048,Health Care Providers & Services,Health Care,Common Stock
+WTFC UW Equity,Wintrust Financial Corp,86.76,5268231168,Banks,Financials,Common Stock
+WWE UN Equity,World Wrestling Entertainment Inc,70.85,5267354624,Entertainment,Communication Services,Common Stock
+AZTA UW Equity,Azenta Inc,70.02,5250713088,Life Sciences Tools & Services,Health Care,Common Stock
+ASGN UN Equity,ASGN Inc,102.74,5250014208,Professional Services,Industrials,Common Stock
+SHC UW Equity,Sotera Health Co,18.53,5242180608,Life Sciences Tools & Services,Health Care,Common Stock
+SAIC UN Equity,Science Applications International Corp,94.1,5239840256,Professional Services,Industrials,Common Stock
+DTM UN Equity,DT Midstream Inc,54.1,5233328640,"Oil, Gas & Consumable Fuels",Energy,Common Stock
+SLAB UW Equity,Silicon Laboratories Inc,152.3,5212237312,Semiconductors & Semiconductor Equipment,Information Technology,Common Stock
+NATI UW Equity,National Instruments Corp,39.39,5211940864,"Electronic Equipment, Instruments & Components",Information Technology,Common Stock
+HXL UN Equity,Hexcel Corp,61.64,5184076288,Aerospace & Defense,Industrials,Common Stock
+UBSI UW Equity,United Bankshares Inc/WV,38.4,5167896576,Banks,Financials,Common Stock
+NYT UN Equity,New York Times Co/The,30.99,5152092160,Media,Communication Services,Common Stock
+MEDP UW Equity,Medpace Holdings Inc,165.66,5135234048,Life Sciences Tools & Services,Health Care,Common Stock
+IPGP UW Equity,IPG Photonics Corp,101.84,5113177600,"Electronic Equipment, Instruments & Components",Information Technology,Common Stock
+SWX UN Equity,Southwest Gas Holdings Inc,76.32,5101933056,Gas Utilities,Utilities,Common Stock
+VVV UN Equity,Valvoline Inc,28.68,5076943872,Chemicals,Materials,Common Stock
+ORA UN Equity,Ormat Technologies Inc,90.72,5074314240,Independent Power and Renewable Electricity Producers,Utilities,Common Stock
+HQY UW Equity,HealthEquity Inc,60.09,5069652992,Health Care Providers & Services,Health Care,Common Stock
+MUR UN Equity,Murphy Oil Corp,32.6,5067762688,"Oil, Gas & Consumable Fuels",Energy,Common Stock
+LNW UW Equity,Light & Wonder Inc,52.88,5058785792,"Hotels, Restaurants & Leisure",Consumer Discretionary,Common Stock
+ONB UW Equity,Old National Bancorp/IN,17.27,5058262016,Banks,Financials,Common Stock
+IAA UN Equity,IAA Inc,37.74,5057431040,Commercial Services & Supplies,Industrials,Common Stock
+LPX UN Equity,Louisiana-Pacific Corp,61.38,5040436224,Paper & Forest Products,Materials,Common Stock
+LHCG UW Equity,LHC Group Inc,161.79,5020153344,Health Care Providers & Services,Health Care,Common Stock
+PRI UN Equity,Primerica Inc,128.6,5006788096,Insurance,Financials,Common Stock
+AMG UN Equity,Affiliated Managers Group Inc,129.81,4962176512,Capital Markets,Financials,Common Stock
+QLYS UW Equity,Qualys Inc,127.76,4961438720,Software,Information Technology,Common Stock
+RLI UN Equity,RLI Corp,109.05,4947468288,Insurance,Financials,Common Stock
+MSA UN Equity,MSA Safety Inc,126.36,4943925760,Commercial Services & Supplies,Industrials,Common Stock
+HOMB UN Equity,Home BancShares Inc/AR,23.88,4902349312,Banks,Financials,Common Stock
+CMC UN Equity,Commercial Metals Co,40.43,4871427072,Metals & Mining,Materials,Common Stock
+ARWR UW Equity,Arrowhead Pharmaceuticals Inc,45.96,4864818176,Biotechnology,Health Care,Common Stock
+EEFT UW Equity,Euronet Worldwide Inc,97.9,4853999104,IT Services,Information Technology,Common Stock
+BKH UN Equity,Black Hills Corp,74.4,4841941504,Multi-Utilities,Utilities,Common Stock
+OMCL UW Equity,Omnicell Inc,109.12,4822906880,Health Care Equipment & Supplies,Health Care,Common Stock
+OZK UW Equity,Bank OZK,40.52,4821718528,Banks,Financials,Common Stock
+EXP UN Equity,Eagle Materials Inc,127.83,4817235968,Construction Materials,Materials,Common Stock
+M UN Equity,Macy's Inc,17.84,4812033536,Multiline Retail,Consumer Discretionary,Common Stock
+CRUS UW Equity,Cirrus Logic Inc,85.78,4798564352,Semiconductors & Semiconductor Equipment,Information Technology,Common Stock
+NYCB UN Equity,New York Community Bancorp Inc,10.19,4751016960,Thrifts & Mortgage Finance,Financials,Common Stock
+CADE UN Equity,Cadence Bank,25.98,4740357120,Banks,Financials,Common Stock
+WTS UN Equity,Watts Water Technologies Inc,142.09,4733345280,Machinery,Industrials,Common Stock
+TKR UN Equity,Timken Co/The,64.34,4725611520,Machinery,Industrials,Common Stock
+TGNA UN Equity,TEGNA Inc,21.2,4724456448,Media,Communication Services,Common Stock
+POWI UW Equity,Power Integrations Inc,82.35,4708837376,Semiconductors & Semiconductor Equipment,Information Technology,Common Stock
+SLGN UN Equity,Silgan Holdings Inc,42.68,4703997952,Containers & Packaging,Materials,Common Stock
+NCR UN Equity,NCR Corp,34.3,4695669760,Software,Information Technology,Common Stock
+IRT UN Equity,Independence Realty Trust Inc,21.1,4685659136,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+COKE UW Equity,Coca-Cola Consolidated Inc,499.74,4684407296,Beverages,Consumer Staples,Common Stock
+TPX UN Equity,Tempur Sealy International Inc,27.2,4683694080,Household Durables,Consumer Discretionary,Common Stock
+POR UN Equity,Portland General Electric Co,52.48,4683464704,Electric Utilities,Utilities,Common Stock
+SIGI UW Equity,Selective Insurance Group Inc,77.61,4682183680,Insurance,Financials,Common Stock
+SRCL UW Equity,Stericycle Inc,50.53,4657871872,Commercial Services & Supplies,Industrials,Common Stock
+IART UW Equity,Integra LifeSciences Holdings Corp,55.73,4653704192,Health Care Equipment & Supplies,Health Care,Common Stock
+HE UN Equity,Hawaiian Electric Industries Inc,42.52,4653020672,Electric Utilities,Utilities,Common Stock
+AM UN Equity,Antero Midstream Corp,9.72,4650611200,"Oil, Gas & Consumable Fuels",Energy,Common Stock
+COLM UW Equity,Columbia Sportswear Co,74.87,4648766976,"Textiles, Apparel & Luxury Goods",Consumer Discretionary,Common Stock
+THO UN Equity,Thor Industries Inc,84.89,4629148160,Automobiles,Consumer Discretionary,Common Stock
+SAM UN Equity,Boston Beer Co Inc/The,375.87,4620785152,Beverages,Consumer Staples,Common Stock
+ESNT UN Equity,Essent Group Ltd,42.83,4608540672,Thrifts & Mortgage Finance,Financials,Common Stock
+MSM UN Equity,MSC Industrial Direct Co Inc,82.07,4594654208,Trading Companies & Distributors,Industrials,Common Stock
+AVT UW Equity,Avnet Inc,46.6,4551968768,"Electronic Equipment, Instruments & Components",Information Technology,Common Stock
+CROX UW Equity,Crocs Inc,73.61,4538085376,"Textiles, Apparel & Luxury Goods",Consumer Discretionary,Common Stock
+NARI UW Equity,Inari Medical Inc,84.69,4521572352,Health Care Equipment & Supplies,Health Care,Common Stock
+THG UN Equity,Hanover Insurance Group Inc/The,126.82,4519135232,Insurance,Financials,Common Stock
+UMBF UW Equity,UMB Financial Corp,93.19,4501662208,Banks,Financials,Common Stock
+FOXF UW Equity,Fox Factory Holding Corp,106.05,4481962496,Auto Components,Consumer Discretionary,Common Stock
+WEN UW Equity,Wendy's Co/The,20.89,4475614720,"Hotels, Restaurants & Leisure",Consumer Discretionary,Common Stock
+SMG UN Equity,Scotts Miracle-Gro Co/The,80.75,4472936960,Chemicals,Materials,Common Stock
+FLS UN Equity,Flowserve Corp,33.82,4420052480,Machinery,Industrials,Common Stock
+MTG UN Equity,MGIC Investment Corp,14.52,4405948416,Thrifts & Mortgage Finance,Financials,Common Stock
+CUZ UN Equity,Cousins Properties Inc,28.98,4388565504,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+OGS UN Equity,ONE Gas Inc,80.57,4361860096,Gas Utilities,Utilities,Common Stock
+SSD UN Equity,Simpson Manufacturing Co Inc,100.64,4343616000,Building Products,Industrials,Common Stock
+KRG UN Equity,Kite Realty Group Trust,19.79,4336265216,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+NJR UN Equity,New Jersey Resources Corp,44.69,4300446208,Gas Utilities,Utilities,Common Stock
+UNVR UN Equity,Univar Solutions Inc,25.75,4294948608,Trading Companies & Distributors,Industrials,Common Stock
+ICUI UW Equity,ICU Medical Inc,179.63,4292444160,Health Care Equipment & Supplies,Health Care,Common Stock
+GO UW Equity,Grocery Outlet Holding Corp,44.54,4292204288,Food & Staples Retailing,Consumer Staples,Common Stock
+FNB UN Equity,FNB Corp/PA,12.05,4226269440,Banks,Financials,Common Stock
+ELY UN Equity,Callaway Golf Co,22.82,4216460800,Leisure Products,Consumer Discretionary,Common Stock
+CHX UW Equity,ChampionX Corp,20.72,4204769792,Energy Equipment & Services,Energy,Common Stock
+SPWR UW Equity,SunPower Corp,24.08,4192155904,Semiconductors & Semiconductor Equipment,Information Technology,Common Stock
+NSP UN Equity,Insperity Inc,109.34,4157744384,Professional Services,Industrials,Common Stock
+HWC UW Equity,Hancock Whitney Corp,48.22,4133221888,Banks,Financials,Common Stock
+PNM UN Equity,PNM Resources Inc,48.1,4128657408,Electric Utilities,Utilities,Common Stock
+JHG UN Equity,Janus Henderson Group PLC,24.57,4070214656,Capital Markets,Financials,Common Stock
+CBT UN Equity,Cabot Corp,71.95,4060403968,Chemicals,Materials,Common Stock
+STAA UQ Equity,STAAR Surgical Co,84.51,4040529920,Health Care Equipment & Supplies,Health Care,Common Stock
+UAA UN Equity,Under Armour Inc,9.33,4027946496,"Textiles, Apparel & Luxury Goods",Consumer Discretionary,Common Stock
+UA UN Equity,Under Armour Inc,8.45,4027946496,"Textiles, Apparel & Luxury Goods",Consumer Discretionary,Common Stock
+MAN UN Equity,ManpowerGroup Inc,77.66,4018287104,Professional Services,Industrials,Common Stock
+WING UW Equity,Wingstop Inc,134.13,4012414208,"Hotels, Restaurants & Leisure",Consumer Discretionary,Common Stock
+R UN Equity,Ryder System Inc,78.25,4005982208,Road & Rail,Industrials,Common Stock
+AVNT UN Equity,Avient Corp,43.55,3960303872,Chemicals,Materials,Common Stock
+EVR UN Equity,Evercore Inc,101.0,3953564928,Capital Markets,Financials,Common Stock
+EPR UN Equity,EPR Properties,52.44,3933768448,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+AMED UW Equity,Amedisys Inc,121.17,3931159552,Health Care Providers & Services,Health Care,Common Stock
+KSS UN Equity,Kohl's Corp,30.55,3924498176,Multiline Retail,Consumer Discretionary,Common Stock
+OLLI UQ Equity,Ollie's Bargain Outlet Holdings Inc,62.79,3924042496,Multiline Retail,Consumer Discretionary,Common Stock
+HBI UN Equity,Hanesbrands Inc,11.2,3906288128,"Textiles, Apparel & Luxury Goods",Consumer Discretionary,Common Stock
+VNT UN Equity,Vontier Corp,24.72,3904363264,"Electronic Equipment, Instruments & Components",Information Technology,Common Stock
+DOC UN Equity,Physicians Realty Trust,17.24,3901770752,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+MMS UN Equity,Maximus Inc,64.33,3895218688,IT Services,Information Technology,Common Stock
+ZD UW Equity,Ziff Davis Inc,82.04,3880195328,Interactive Media & Services,Communication Services,Common Stock
+DEI UN Equity,Douglas Emmett Inc,22.04,3874282496,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+YETI UN Equity,YETI Holdings Inc,44.94,3872047616,Leisure Products,Consumer Discretionary,Common Stock
+CALX UN Equity,Calix Inc,59.16,3859628800,Communications Equipment,Information Technology,Common Stock
+SLM UW Equity,SLM Corp,15.33,3853718784,Consumer Finance,Financials,Common Stock
+UMPQ UW Equity,Umpqua Holdings Corp,17.71,3843967488,Banks,Financials,Common Stock
+TNDM UQ Equity,Tandem Diabetes Care Inc,59.54,3823730944,Health Care Equipment & Supplies,Health Care,Common Stock
+KEX UN Equity,Kirby Corp,63.16,3808548096,Marine,Industrials,Common Stock
+SR UN Equity,Spire Inc,72.31,3795752704,Gas Utilities,Utilities,Common Stock
+ETRN UN Equity,Equitrans Midstream Corp,8.77,3795489280,"Oil, Gas & Consumable Fuels",Energy,Common Stock
+LANC UW Equity,Lancaster Colony Corp,137.83,3793357312,Food Products,Consumer Staples,Common Stock
+PGNY UW Equity,Progyny Inc,41.15,3789129984,Health Care Providers & Services,Health Care,Common Stock
+JWN UN Equity,Nordstrom Inc,23.51,3775215104,Multiline Retail,Consumer Discretionary,Common Stock
+GT UW Equity,Goodyear Tire & Rubber Co/The,13.23,3741481728,Auto Components,Consumer Discretionary,Common Stock
+TDC UN Equity,Teradata Corp,35.71,3670988032,Software,Information Technology,Common Stock
+TNL UN Equity,Travel + Leisure Co,43.77,3668998912,"Hotels, Restaurants & Leisure",Consumer Discretionary,Common Stock
+GPS UN Equity,Gap Inc/The,9.74,3584009216,Specialty Retail,Consumer Discretionary,Common Stock
+HAE UN Equity,Haemonetics Corp,69.58,3569411072,Health Care Equipment & Supplies,Health Care,Common Stock
+GATX UN Equity,GATX Corp,100.79,3557886976,Trading Companies & Distributors,Industrials,Common Stock
+SXT UN Equity,Sensient Technologies Corp,84.61,3556829184,Chemicals,Materials,Common Stock
+SMTC UW Equity,Semtech Corp,55.74,3538251520,Semiconductors & Semiconductor Equipment,Information Technology,Common Stock
+SBRA UW Equity,Sabra Health Care REIT Inc,15.18,3506107392,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+ALE UN Equity,ALLETE Inc,61.18,3491662848,Electric Utilities,Utilities,Common Stock
+HIW UN Equity,Highwoods Properties Inc,33.18,3490033408,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+VC UW Equity,Visteon Corp,122.65,3449172480,Auto Components,Consumer Discretionary,Common Stock
+FCFS UW Equity,FirstCash Holdings Inc,73.06,3436440576,Consumer Finance,Financials,Common Stock
+BRBR UN Equity,BellRing Brands Inc,24.96,3400660480,Personal Products,Consumer Staples,Common Stock
+PK UN Equity,Park Hotels & Resorts Inc,15.05,3383881984,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+PACW UW Equity,PacWest Bancorp,27.9,3356035840,Banks,Financials,Common Stock
+VICR UW Equity,Vicor Corp,76.28,3355085056,Electrical Equipment,Industrials,Common Stock
+TRIP UW Equity,TripAdvisor Inc,23.86,3336676864,Interactive Media & Services,Communication Services,Common Stock
+LIVN UW Equity,LivaNova PLC,61.88,3313410048,Health Care Equipment & Supplies,Health Care,Common Stock
+GEF UN Equity,Greif Inc,68.25,3307706368,Containers & Packaging,Materials,Common Stock
+FLR UN Equity,Fluor Corp,23.08,3279268352,Construction & Engineering,Industrials,Common Stock
+PCH UW Equity,PotlatchDeltic Corp,46.99,3255083008,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+SFM UW Equity,Sprouts Farmers Market Inc,30.28,3253745664,Food & Staples Retailing,Consumer Staples,Common Stock
+PZZA UW Equity,Papa John's International Inc,91.95,3250178048,"Hotels, Restaurants & Leisure",Consumer Discretionary,Common Stock
+BHF UW Equity,Brighthouse Financial Inc,45.13,3241117696,Insurance,Financials,Common Stock
+BOH UN Equity,Bank of Hawaii Corp,80.52,3235518208,Banks,Financials,Common Stock
+CRI UN Equity,Carter's Inc,81.73,3187173888,"Textiles, Apparel & Luxury Goods",Consumer Discretionary,Common Stock
+TMHC UN Equity,Taylor Morrison Home Corp,27.83,3163134720,Household Durables,Consumer Discretionary,Common Stock
+ENOV UN Equity,Enovis Corp,58.42,3162247168,Health Care Equipment & Supplies,Health Care,Common Stock
+ADNT UN Equity,Adient PLC,33.05,3133591552,Auto Components,Consumer Discretionary,Common Stock
+CATY UW Equity,Cathay General Bancorp,42.06,3130184448,Banks,Financials,Common Stock
+HELE UW Equity,Helen of Troy Ltd,130.05,3117098752,Household Durables,Consumer Discretionary,Common Stock
+DY UN Equity,Dycom Industries Inc,104.65,3092613888,Construction & Engineering,Industrials,Common Stock
+VSCO UN Equity,Victoria's Secret & Co,37.2,3090535424,Specialty Retail,Consumer Discretionary,Common Stock
+NWE UW Equity,NorthWestern Corp,54.5,3060177664,Multi-Utilities,Utilities,Common Stock
+ASB UN Equity,Associated Banc-Corp,20.35,3058715136,Banks,Financials,Common Stock
+SLG UN Equity,SL Green Realty Corp,46.79,3040891648,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+FHI UN Equity,Federated Hermes Inc,34.04,3034381824,Capital Markets,Financials,Common Stock
+ENV UN Equity,Envestnet Inc,54.9,3030308608,Software,Information Technology,Common Stock
+NEU UN Equity,NewMarket Corp,300.3,3006917376,Chemicals,Materials,Common Stock
+CNX UN Equity,CNX Resources Corp,15.77,2987659264,"Oil, Gas & Consumable Fuels",Energy,Common Stock
+ACIW UW Equity,ACI Worldwide Inc,26.15,2982335744,Software,Information Technology,Common Stock
+SITM UQ Equity,SiTime Corp,140.06,2981386240,Semiconductors & Semiconductor Equipment,Information Technology,Common Stock
+TCBI UW Equity,Texas Capital Bancshares Inc,59.75,2980597504,Banks,Financials,Common Stock
+BLKB UW Equity,Blackbaud Inc,56.03,2971267584,Software,Information Technology,Common Stock
+OFC UN Equity,Corporate Office Properties Trust,26.41,2969099520,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+PDCO UW Equity,Patterson Cos Inc,30.43,2961907456,Health Care Providers & Services,Health Care,Common Stock
+BDC UN Equity,Belden Inc,66.8,2956312576,"Electronic Equipment, Instruments & Components",Information Technology,Common Stock
+VSH UN Equity,Vishay Intertechnology Inc,20.7,2955493632,"Electronic Equipment, Instruments & Components",Information Technology,Common Stock
+MRCY UW Equity,Mercury Systems Inc,50.97,2939604992,Aerospace & Defense,Industrials,Common Stock
+WLY UN Equity,John Wiley & Sons Inc,51.85,2892929280,Media,Communication Services,Common Stock
+JBLU UW Equity,JetBlue Airways Corp,8.68,2811055872,Airlines,Industrials,Common Stock
+GHC UN Equity,Graham Holdings Co,578.3,2800313600,Diversified Consumer Services,Consumer Discretionary,Common Stock
+KMPR UN Equity,Kemper Corp,43.73,2792244992,Insurance,Financials,Common Stock
+ENS UN Equity,EnerSys,68.43,2781857792,Electrical Equipment,Industrials,Common Stock
+KBH UN Equity,KB Home,31.7,2763153408,Household Durables,Consumer Discretionary,Common Stock
+FULT UW Equity,Fulton Financial Corp,16.55,2763135488,Banks,Financials,Common Stock
+IBOC UW Equity,International Bancshares Corp,44.24,2753591552,Banks,Financials,Common Stock
+XRX UW Equity,Xerox Holdings Corp,17.56,2719175168,"Technology Hardware, Storage & Peripherals",Information Technology,Common Stock
+LOPE UW Equity,Grand Canyon Education Inc,84.67,2706306816,Diversified Consumer Services,Consumer Discretionary,Common Stock
+JBGS UN Equity,JBG SMITH Properties,23.58,2697337088,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+BCO UN Equity,Brink's Co/The,56.83,2684827136,Commercial Services & Supplies,Industrials,Common Stock
+NUVA UW Equity,NuVasive Inc,51.47,2679579648,Health Care Equipment & Supplies,Health Care,Common Stock
+ESAB UN Equity,Esab Corp,44.6,2677530368,Machinery,Industrials,Common Stock
+WERN UW Equity,Werner Enterprises Inc,42.2,2676136960,Road & Rail,Industrials,Common Stock
+FL UN Equity,Foot Locker Inc,28.31,2675585792,Specialty Retail,Consumer Discretionary,Common Stock
+NGVT UN Equity,Ingevity Corp,68.72,2614715904,Chemicals,Materials,Common Stock
+WOR UN Equity,Worthington Industries Inc,51.55,2552955904,Metals & Mining,Materials,Common Stock
+VSAT UW Equity,Viasat Inc,33.76,2550629632,Communications Equipment,Information Technology,Common Stock
+CVLT UW Equity,CommVault Systems Inc,56.82,2545909760,Software,Information Technology,Common Stock
+KD UN Equity,Kyndryl Holdings Inc,10.95,2472099328,IT Services,Information Technology,Common Stock
+SABR UW Equity,Sabre Corp,7.5,2461397760,IT Services,Information Technology,Common Stock
+PEB UN Equity,Pebblebrook Hotel Trust,18.68,2455524096,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+MLKN UW Equity,MillerKnoll Inc,30.9,2343554048,Commercial Services & Supplies,Industrials,Common Stock
+TEX UN Equity,Terex Corp,34.11,2312657920,Machinery,Industrials,Common Stock
+NEOG UW Equity,Neogen Corp,21.42,2309884160,Health Care Equipment & Supplies,Health Care,Common Stock
+DAN UN Equity,Dana Inc,15.92,2282183424,Auto Components,Consumer Discretionary,Common Stock
+WAFD UW Equity,Washington Federal Inc,34.39,2246501632,Banks,Financials,Common Stock
+NAVI UW Equity,Navient Corp,15.82,2244520960,Consumer Finance,Financials,Common Stock
+MAC UN Equity,Macerich Co/The,10.38,2228017664,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+CBRL UW Equity,Cracker Barrel Old Country Store Inc,96.58,2200922624,"Hotels, Restaurants & Leisure",Consumer Discretionary,Common Stock
+NUS UN Equity,Nu Skin Enterprises Inc,43.35,2183999232,Personal Products,Consumer Staples,Common Stock
+ENR UN Equity,Energizer Holdings Inc,30.54,2175983104,Household Products,Consumer Staples,Common Stock
+KMT UN Equity,Kennametal Inc,26.24,2168432128,Machinery,Industrials,Common Stock
+CNO UN Equity,CNO Financial Group Inc,18.3,2093477504,Insurance,Financials,Common Stock
+MTX UN Equity,Minerals Technologies Inc,63.67,2075304064,Chemicals,Materials,Common Stock
+HAIN UW Equity,Hain Celestial Group Inc/The,23.0,2065341696,Food Products,Consumer Staples,Common Stock
+AEO UN Equity,American Eagle Outfitters Inc,12.06,2042988416,Specialty Retail,Consumer Discretionary,Common Stock
+HPP UN Equity,Hudson Pacific Properties Inc,14.17,2007295744,Equity Real Estate Investment Trusts (REITs),Real Estate,REIT
+BFH UN Equity,Bread Financial Holdings Inc,38.37,1912578048,Consumer Finance,Financials,Common Stock
+MCY UN Equity,Mercury General Corp,32.32,1789594880,Insurance,Financials,Common Stock

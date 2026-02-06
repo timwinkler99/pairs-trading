@@ -1,0 +1,136 @@
+\section{Methodology}
+\label{sec:Pairs Trading Methodology}
+
+
+\subsection{Data}
+\label{sec:Data}
+
+The data set of this analysis contains the daily closing prices of stocks included in the S\&P 500 index.\footnote{S\&P 500 constituents and the daily stock prices have been obtained from Bloomberg Terminal at the Leibniz Institute for Financial Research SAFE data room on July 28, 2022.} 
+For simplicity, we do not consider the history of S\&P 500 constituents, but rather obtain prices for the stocks that are in the index as of July 28, 2022, from January 2005 until June 2022. In January 2005, only 345 of the S\&P 500 constituents were already stock market listed and thus available for trading. However, due to subsequent IPOs, this number increases steadily over time to 473 available stocks in December 2020.
+Furthermore, we only consider securities of the type common stock.
+
+
+\subsection{Identifying Pairs}
+\label{sec:Identifying Pairs}
+
+In line with the pairs trading literature we identify pairs in a 12-month formation period and trade the nominated pairs in the subsequent 6 months, namely the trading period \parencite{gatev2006,do2010,rad2016}.
+During the formation period, we calculate the sum of squared difference (SSD) between normalised prices for any possible stock combination. Normalised prices are defined as the cumulative return indices which are rescaled to one in every formation period.
+To be considered as a pair, we require both stocks to have prices for each day of the formation and trading period. We start a new formation period every month, which results in up to 6 overlapping trading periods each month and a total of 192 periods. The 6 overlapping periods can be interpreted as six individual portfolios, which are active for trading during a given month. For a given number of stocks $N$, the number of pairs to check is equal to $(N[N-1]/2)$.
+In the first period, there are 345 stocks available, resulting in 59,340 pairs to check. Over time the number of available stocks increases until it reaches 473 in the final period, which starts in December 2020. This results in 109,278 pairs to check in the final period.
+In total, we end up with 15,924,065 pairs to evaluate during the entire observation period.
+Once we obtained the SSD for each pair, we nominate the 20 pairs with the lowest SSD in each formation period for trading.
+
+
+\subsection{Distance Method}
+\label{subsec:Distance Method}
+
+The distance method is by far the simplest pairs trading strategy. Similar to \citet{gatev2006} we nominate the 20 pairs that have the lowest SSD in normalised prices during their respective formation period for trading. We also obtain the standard deviation of the daily difference between the stock prices, henceforth \qq{spread}, during the aforementioned formation period, which serves as a trading threshold in the trading period.
+During the trading period, we monitor the spread of each nominated pair daily. If the spread is larger than two historical standard deviations in absolute value (obtained during the preceding formation period), we simultaneously open a long and short position. If the spread increases and exceeds two historical standard deviations, we say that stock 1 is overvalued, relative to stock 2 and therefore enter a short position in stock 1 and a long position in stock 2. If the spread falls below two negative historical standard deviations the opposite is true. Stock 2 is said to be overvalued relative to stock 1 and we enter a stock 2 short and a stock 1 long position.
+Once the spread converges back to zero, we close both positions and continue to monitor the pair for further trading opportunities during the remainder of the trading period.
+
+\begin{figure}[hbt]
+    \caption{Distance Method Trading Rule}
+    \label{fig:distance_trading:methodology}
+    \fnote{This figure shows the cumulative return indices for Duke Energy Corp (DUK) and Pinnacle West Capital Corp (PNW), two companies from the utility sector. Furthermore, the spread is calculated for each day and the trading threshold (two historical standard deviations from the preceding formation period) is graphed. The shaded areas correspond to periods where long and short positions were active.}
+    \includegraphics[width=\textwidth]{Figures/distance_methodology.pdf}
+\end{figure}
+
+Figure \ref{fig:distance_trading:methodology}  demonstrates the described trading rule for two stocks from the utility sector. At the beginning of the trading period, both stocks tend to move close together and the spread fluctuates around zero. During June and July 2018 both stocks increase in price, however, the price of DUK (stock 1) stays at a higher price whereas the price of PNW (stock 2) drops. 
+Therefore, according to the trading rule, DUK is overvalued relative to PNW; thus we buy long PNW and sell short DUK. Around mid of October 2018, the spread between the two stocks decreases and converges (shortly) back to zero. We gain on both positions and end up with a return of 2.0648\%. Later that period two additional opportunities arise, which we also exploit.
+
+Note that by the end of the period, all positions are closed by natural convergence of the spread to zero. This is not always the case. If the spread does not converge to zero, and eventually diverges even further, both positions will be closed on the last day of the trading period, irrespective of whether the stocks converged back or not. This can potentially cause large losses and reduce the profitability of the distance method severely. A detailed discussion on the convergence/non-convergence of pairs and the effect on the overall profitability of pairs trading strategies follows in Section \ref{sec:trade_statstics}.
+
+
+\subsection{Copula Approach}
+\label{sec:Copula Approach}
+
+Similar to the distance method we nominate the 20 pairs with the lowest SSD during the formation period for trading in each period.
+The copula approach to pairs trading is more involved than the distance method. Fitting pairs to copulas is a two-step process.
+First, we must find the marginal distributions that describe the daily returns during the formation period of each nominated pair's stocks best. Similar to \citet{rad2016}, we allow marginal distributions to be chosen from Normal, Student-t, Generalized Logistic, and Generalized Extreme Value distributions and ultimately choose the one that has the lowest Aikake information criterion (AIC).
+By feeding the daily returns into the cumulative distribution function of the marginal distribution that fits best, we obtain uniform marginals.
+Second, we use the uniform marginals of the formation period to find the copula that models the pairs dependence structure best. Again, similar to \citet{rad2016}, we allow for Student-t, Clayton, Gumbel (where for the Clayton and Gumbel copula rotated versions can be chosen). The copula parameters are estimated via maximum likelihood and we ultimately choose the copula that features the lowest AIC. Table \ref{tab:marginals_copula_shares} provides an overview of the frequencies with which marginal distributions and copulas have been selected.
+\begin{table}[hbt]
+\caption{Share of Selected Marginal Distributions and Copulas}
+\label{tab:marginals_copula_shares}
+    \begin{tabularx}{\textwidth}{lYccc}
+    \toprule
+    \multicolumn{5}{c}{\textit{Marginal Distribution}}\\\hline
+    Marginal & Student-t & Gen. Logistic & Normal & Gen. Extreme Value\\
+    \hline
+    
+    \% of Stocks & 51.70 &  40.87 & 7.24 & 0.19\\
+    \midrule
+    \multicolumn{5}{c}{\textit{Copula}}\\\hline
+    
+    Copula & Student-t & Gumbel & Rotated Gumbel & Clayton\\
+    \hline
+    \% of Pairs & 75.36 & 3.44 & 19.74 & 1.46\\
+    \bottomrule
+    \end{tabularx}
+\end{table}
+
+Figure \ref{fig:copula_model_comparison} illustrates the marginal daily return distribution of two stocks from the utility sector and different fitted copulas. In particular, Figure \ref{fig:copula_model_comparison}(a) contains the realized uniform marginal daily returns of the formation period. We immediately notice the high dependence in both tails. This is captured best by the Student-t copula, Figure \ref{fig:copula_model_comparison}(b). Clayton and Gumbel copula exhibit high dependence in only one of their tails.
+\begin{figure}[hbt]
+    \caption{Copula Estimation of Uniform Daily Returns}
+    \label{fig:copula_model_comparison}
+    \fnote{This figure illustrates the copula estimation for Eversource Energy (ES) and WEC Energy Group Inc (WEC), two companies from the utility sector during the formation period which started in April 2013. Figure \ref{fig:copula_model_comparison}(a) contains the realized uniform marginal daily returns. Figures \ref{fig:copula_model_comparison}(b)-(d) contain fitted copulas.}
+    \includegraphics[width=\textwidth]{Figures/copula_methodology_copula_comp.pdf}
+\end{figure}
+Having obtained the copula that provides a parsimonious fit for each nominated pair allows us to turn to the trading period. Figure \ref{fig:copula_predictions_trading_period} illustrates the uniform daily returns realized during the subsequent trading period and simulated data, based on the Student-t copula, parameterised during the formation period. The relationship captured during the formation period still holds, thus the Student-t copula continues to provide a parsimonious fit.
+\begin{figure}[hbt]
+    \caption{Copula Predictions for the Trading Period}
+    \label{fig:copula_predictions_trading_period}
+    \fnote{This figure contains the uniform realized daily returns and the student-t copula predictions for the trading period following the formation period illustrated in Figure \ref{fig:copula_model_comparison}.}
+    \includegraphics[width= \textwidth]{Figures/copula_methodology_predictions_trading.pdf}
+\end{figure}
+
+During the trading period, we monitor each pair daily. We calculate the conditional probabilities, $h_1$ and $h_2$, as defined in Equations \eqref{eq:hfunc1} and \eqref{eq:hfunc2}. \citet{rad2016} provide an intuitive interpretation for the conditional probabilities: if $h_1$ is equal to 0.5, the probability of stock 1's price to fall below its current realization, given the price of stock 2, is 50\%. This interpretation is analogously valid for $h_2$.
+Consequently, a value of $h_1$ above 0.5 implies that the probability for stock 1 to fall below its current realization is higher than the probability for stock 1 to increase in price \parencite{rad2016}. Similarly, a value of $h_1$ below 0.5 predicts an increase in price to be more probable than a decrease. Again, interpretations hold analogously for $h_2$.
+To monitor the development of the relative over-/underpricing of stocks 1 and 2, we first introduce two mispriced indices \parencite{rad2016, xie2016} which are calculated for each day of the trading period:
+\begin{equation}
+    \label{eq:m1}
+    m_{1,t} = h_1(u_1 | u_2) -0.5 = \prob(U_1 \leq u_1 |U_2 = u_2) -0.5
+\end{equation}
+\begin{equation}
+    \label{eq:m2}
+    m_{2,t} = h_2(u_2 | u_1) -0.5 = \prob(U_2 \leq u_2 |U_1 = u_1) -0.5
+\end{equation}
+Secondly, we calculate the cumulative mispriced indices for each day of the respective trading period:
+\begin{equation}
+    \label{eq:M1}
+    M_{1,t} = M_{1,t-1} + m_{1,t}
+\end{equation}
+\begin{equation}
+    \label{eq:M2}
+    M_{2,t} = M_{2,t-1} + m_{2,t}
+\end{equation}
+
+If $M_1$ is positive, while $M_2$ turns out to be negative, stock 1 is said to be overvalued relative to stock 2. Similarly, if $M_2$ is negative and $M_1$ is positive, stock 2 is overvalued.
+In line with \citet{xie2016}, we open a long and short position if the cumulative daily deviations from equilibrium pricing are sufficiently large enough. That is the case if one of the cumulative mispriced indices greater than 0.5 while the other one is smaller than -0.5. Once the indices return to zero, the positions are closed and we continue to evaluate the pair for further trading opportunities.
+
+
+
+\subsection{Performance Evaluation}
+\label{sec:Performance Evaluation}
+
+The performance evaluation of this study follows \citet{gatev2006}, who provide two types of excess returns which are commonly used in the pairs trading literature. 
+Determining the profitability of pairs trading is a nontrivial issue. This is because pairs can open and converge multiple times during the trading period. In particular, if a pair opens and converges during the trading period, a positive cash flow results. If a pair opens and does not converge, the position is closed on the final day of the trading period; either a positive or negative cash flow will occur.
+Hence, the cash flows of a pairs trading strategy are a set of randomly distributed positive cash flows throughout the trading period and a set of cash flows that can be either positive or negative at the end of the period \parencite{gatev2006}.
+Per assumption, we invest one dollar long and short for a given pair. Therefore the payoffs are interpreted as excess returns.
+The excess return of a given pair is equal to the reinvested payoffs during the trading interval, where the long-short portfolio positions are marked-to-market daily. In particular, we obtain the daily return of pair $P$ on day $t$ as a value-weighted return:
+\begin{equation}
+    r_{P,t} = \frac{\sum_{i\in P}w_{i,t}r_{i,t}}{\sum_{i\in P}w_{i,t}}
+\end{equation}
+\begin{equation*}
+    w_{i,t} = w_{i,t-1}(1+r_{i,t-1}) = (1+r_{i,1}) \cdots (1+r_{i,t-1})
+\end{equation*}
+where $r_{i,t}$ denotes the return of stock $i$ of pair $P$ on day $t$ and $w_{i,t}$ denotes a corresponding weight. To obtain monthly returns, daily returns are compounded \parencite{gatev2006}.
+
+Similar to \citet{gatev2006,rad2016} we calculate two types of excess returns, namely the return on employed capital and the return on committed capital.
+Return on employed capital of a given portfolio in month $m$ is defined as the sum of payoffs of the portfolio's pairs divided by the number of pairs that opened for trading during the respective trading period.
+Return on committed capital in month $m$ is defined as the sum of payoffs of the portfolios pairs divided by the number of nominated pairs to trade during the respective trading period. In our specification this number is equal to 20 for a given portfolio, regardless of whether the pairs actually have been traded or not.
+Ultimately, the monthly excess return is calculated as the equally-weighted average return of the 6 portfolios that are active for trading in a given month.
+Comparing these two measures of excess returns, the return on committed capital is more conservative, as it takes into account the opportunity costs of capital \parencite{rad2016}.
+
+Whenever we enter a trade, we sell one stock short. In practice, the sale of this stock would provide us with the necessary capital to buy the other one long in equal amounts. Therefore, this strategy is self-financing. However, especially by short-selling stocks, fees arise. For simplicity, we abstract from such fees and other costs. As mentioned in Section \ref{sec:Literature Overview}, \citet{do2012} provide a study of pairs trading profitability considering costs inherent to these strategies.
+The findings of \citet{do2012} have been adopted in \citet{rad2016}. They make the assumption, that by screening out stocks that have a low dollar value and market capitalization, i.e., are illiquid and more costly to trade, the remaining stocks are cheap to sell short. Given that our stock sample consists of S\&P 500 stocks, which are regarded as very liquid, the assumption of relatively low short-selling costs is thus reasonable for our study as well.

@@ -1,0 +1,242 @@
+\documentclass[12 pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper, left=3.25 cm, right=3.25cm, top=3cm, bottom =3cm]{geometry}
+
+
+
+% Text and Math Symbols
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{textcmds}
+
+\DeclareMathOperator{\prob}{P}
+\DeclareMathOperator{\E}{\mathbb{E}}
+\DeclareMathOperator{\M}{M}
+\DeclareMathOperator{\uniform}{U}
+
+
+% % section headings in sans serif
+% \usepackage[sf,bf]{titlesec}
+
+% \usepackage{tocloft}
+% % section in toc in sans serif
+% \renewcommand{\cftsecfont}{\bfseries\sffamily}
+% % toc title in sans serif
+% \renewcommand{\cfttoctitlefont}{\bfseries\sffamily\Large}
+
+
+
+%Nnomenclature (List of symbols and abbreviations)
+\usepackage{nomencl} %add option [intoc] to include in toc
+\makenomenclature
+\renewcommand{\nomname}{Abbreviations}
+
+
+% \usepackage{etoolbox}
+% \renewcommand\nomgroup[1]{%
+%   \item[\bfseries\large
+%   \ifstrequal{#1}{A}{Abbreviations}{%
+%   \ifstrequal{#1}{S}{Symbols}}%
+% ]\vspace{10 pt}}
+
+% Figures and colors
+\usepackage{graphicx}
+\usepackage[dvipsnames]{xcolor}
+
+\definecolor{midnightblue}{rgb}{0.09803921568627451, 0.09803921568627451, 0.4392156862745098}
+
+% Clickable links
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=black,      
+    urlcolor=black,
+    citecolor=black,
+    pdftitle={The Profitability of Pairs Trading Strategies: An Empirical Comparison between Distance and Copula Approach},
+    pdfauthor={Tim Winkler},
+    pdfpagemode=FullScreen,
+    }
+
+
+\usepackage[onehalfspacing]{setspace}
+\AtBeginEnvironment{tabular}{\onehalfspacing}
+\AtBeginEnvironment{tabularx}{\onehalfspacing}
+\AtBeginEnvironment{tabularx}{\small}
+\AtBeginEnvironment{tabular}{\small}
+
+\usepackage{caption}
+
+% table caption
+\captionsetup[table]{justification=justified,singlelinecheck=false, labelfont=bf, position=top, skip = 2.5pt}
+
+% figure caption
+\captionsetup[figure]{justification=justified,singlelinecheck=false, labelfont=bf, position=top, skip = 2.5pt}
+
+% to print label and caption in different lines ad option labelsep=newline
+
+% "note" field for figures and table (to be placed under the caption, above the figure)
+\newcommand\fnote[1]{\captionsetup{font=footnotesize,justification=justified,singlelinecheck=false,skip=2.5pt}\caption*{#1}}
+
+
+% Tables
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{dcolumn}
+\usepackage{lipsum}
+\usepackage{booktabs}
+
+\usepackage{tabularx}
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+\newcolumntype{d}[1]{D..{#1}}
+
+
+% Bibliography
+\usepackage[backend=biber, style = apa, natbib]{biblatex}
+\addbibresource{Bibliography.bib}
+
+
+
+% Font and formatting
+% \usepackage[T1]{fontenc}
+% \usepackage{newtxtext,newtxmath}
+\linespread{1.5}
+% \renewcommand{\arraystretch}{1}
+%\setlength{\parindent}{0em}
+%\setlength{\parskip}{1em}
+%\usepackage[section]{placeins}
+
+
+% Theorems, definitions
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+\newtheorem{prediction}{Prediction}
+
+
+
+\usepackage{tcolorbox}
+
+\tcolorboxenvironment{definition}{
+  colback=gray!20!white,
+  boxrule=0pt,
+  sharp corners,
+  before skip=\topsep,
+  after skip=\topsep,
+}
+
+
+
+
+
+% Titlepage
+\title{The Profitability of Pairs Trading Strategies: An Empirical Comparison between Distance and Copula Approach}
+\author{Tim Winkler}
+\date{\today}
+
+
+\begin{document}
+
+\begin{titlepage}
+    \noindent
+    \thispagestyle{empty}
+    \begin{center}
+    \large
+        % \begin{figure}[h]
+        %     \centering
+        %     \includegraphics[width=5 cm]{Goethe-Logo.png}
+        % \end{figure}
+        Goethe University Frankfurt
+        
+        Faculty of Economics and Business Administration
+        
+        Chair of Statistics and Econometric Methods
+        
+        
+        \vspace{4 cm}
+        Bachelor Thesis
+        \vspace{0.5 cm}
+        
+        
+        \Large
+        % \sffamily
+        \textbf{The Profitability of Pairs Trading Strategies: An Empirical Comparison between Distance and Copula Approach}
+        
+        \vspace{1.5 cm}
+        \large
+        \rmfamily
+        To obtain the degree\\ \textit{Bachelor of Science}\\\textit{in}\\\textit{Business Administration and Economics}
+    
+    
+    \end{center}
+    
+    \vfill
+    
+    
+    
+    \begin{tabular}{ll}
+        Name:& Tim Winkler (7261718)\\
+        Email:& \href{mailto:timwinkler@stud.uni-frankfurt.de}{timwinkler@stud.uni-frankfurt.de}\\
+        Supervisor:& Prof. Dr. Uwe Hassler \\
+        Submitted: & August 18, 2022
+    \end{tabular}
+
+\end{titlepage}
+
+
+\setcounter{page}{1}
+\pagenumbering{roman}
+\tableofcontents
+%\listoffigures
+
+%----------------------------------------------
+% Evtl. Symbols and Abbreviations 
+\clearpage
+
+% \include{Nomenclature}
+
+% \printnomenclature[2cm]
+
+
+\clearpage
+%----------------------------------------------
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+
+\include{Sections/01 Introduction}
+
+\include{Sections/02 Literature Overview}
+
+\include{Sections/03 Copulas}
+
+\include{Sections/04 Pairs Trading Methodology}
+
+\include{Sections/05 Results}
+
+\include{Sections/06 Conclusion}
+
+
+\printbibliography[title=References, heading=bibintoc]
+
+\clearpage
+\section*{Statutory Declaration}
+\addcontentsline{toc}{section}{Statutory Declaration}
+
+
+I herewith declare that I have composed the present thesis myself and without use of any other than the cited sources and aids. Sentences or parts of sentences quoted literally are marked as such; other references with regard to the statement and scope are indicated by full details of the publications concerned. The thesis in the same or similar form has not been submitted to any examination body and has not been published.
+This thesis was not yet, even in part, used in another examination or as a course performance. 
+
+\noindent Throughout the thesis I am using the pronoun \qq{We}, which is meant as a stylistic device. It does not imply that there are additional authors of this thesis.
+\vspace{2cm}
+
+\noindent
+\begin{tabular}{ll}
+\makebox[2.5in]{\hrulefill} & \makebox[2.5in]{\hrulefill}\\
+Tim Winkler & Date, Place\\
+\end{tabular}
+
+\end{document}

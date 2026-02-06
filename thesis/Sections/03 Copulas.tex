@@ -1,0 +1,61 @@
+\section{Copula Preliminaries}
+\label{sec:Copula Preliminaries}
+
+When encountering multivariate distributions one might be interested in two things: how do the marginal distributions of the multivariate distribution behave individually and how do they interact with each other? These questions can be examined using copulas. The idea of copulas is to link marginal distribution functions to their joint distribution function \parencite{rad2016}. In the context of pairs trading this can be useful to identify pairs, but also to generate trading signals for a given set of pairs. The focus of this study lies in the generation of trading signals using copulas and the conditional probability functions that can be derived from them.
+
+\subsection{Copula Concept}
+
+A formal introduction to copulas can be found in \citet{nelsen2007}. However, due to the focus of this study on the copula application to pairs trading, we adopt definitions and notation from \citet{mcneil2015}, who provide besides a formal, also a practical introduction to copulas in the context of risk management. 
+\begin{definition}[Copula]
+    A $d$-dimensional copula is a distribution function on $[0,1]^d$ with standard uniform marginal distributions.
+\end{definition}
+
+Denote the multivariate distribution functions that are copulas as $C(\mathbf{u})=C(u_1,...,u_d)$. Then $C$ is a mapping of the form $C:[0,1]^d \rightarrow [0,1]$, hence a mapping of the unit hypercube into the unit interval \parencite{mcneil2015}. To qualify as a copula, $C$ has to fulfil three properties:
+\begin{enumerate}
+    \item $C(u_1,...,u_d) = 0$ if $u_i=0$ for any $i$
+    \item $C(1,...,1,u_i,1,...,1) = u_i$ for all $i\in\{1,...,d\}$, $u_i\in[0,1]$ 
+    \item For all $(a_1,...,a_d), (b_1,...,b_d) \in [0,1]^d$ with $a_i\leq b_i$, we have
+    \begin{equation*}
+        \sum_{i_1=1}^2 \dots \sum_{i_d=1}^2 (-1)^{i_1+\dots+i_d}C(u_{1i_1},..., u_{di_d}) \geq 0,
+    \end{equation*}
+    where $u_{j1}=a_j$ and $u_{j2}=b_j$ for all $j\in\{1,...,d\}$.
+\end{enumerate}
+
+Copulas establish a functional relationship between multivariate distribution functions and their corresponding marginal distributions \parencite{krauss2017}. Sklar's theorem \parencite{sklar1959} states that if $F$ is a joint distribution function with marginal distributions $F_1,...,F_d$, then, there is a $d$-copula $C$, such that, for all $(x_1,...,x_d)\in\mathbb{R}^d$:
+\begin{equation}
+    \label{eq:copula function}
+    F(x_1,...,x_d) = C(F_1(x_1), ..., F_d(x_d))
+\end{equation}
+
+% very close to Rad et al:
+
+If $F$ is absolutely continuous and $F_1, ..., F_d$ are strictly increasing continuous, the joint probability density function $f$ can be written as:
+\begin{equation}
+    \label{eq:joint pdf}
+    f(x_1,...,x_d) = \left(\prod_{k=1}^d f_k(x_k) \right) \times c(F_1(x_1),...,F_d(x_d)),
+\end{equation}
+where the copula density function $c$ is obtained taking the partial derivative of $C$, $d$ times with respect to each marginal:
+\begin{equation}
+    \label{eq:copula density function}
+    c(u_1,...,u_d) = \frac{\partial^dC(u_1,...,u_d)}{\partial u_1 ... \partial u_d}
+\end{equation}
+
+Equation \eqref{eq:joint pdf} and \eqref{eq:copula density function} are fundamental to understand. By decomposing the multivariate distribution into the marginal probability density functions, and the copula density function we can capture the characteristics of the marginal distributions as well as the dependence characteristics of them \parencite{rad2016}.
+Thus no assumption on the joint behaviour of the marginal distributions is required since the marginal behaviour is modelled separately from the joint structure. Hence copulas allow for higher flexibility in modelling multivariate distributions.
+
+\subsection{Copulas in Pairs Trading}
+
+Let $X_1$ and $X_2$ be two random variables, e.g., the daily return distributions of two stocks for a given period, with probability functions $F_1(X_1)$ and $F_2(X_2)$. By feeding the random variables into their distribution function we transform the random variables into uniform random variables, i.e, $U_i=F(X_i)$ where $U_i \sim \uniform(0,1)$ for $i=1,2$ \parencite{rad2016}. Define $C(u_1,u_2)=\prob(U_1\leq u_1, U_2\leq u_2)$, their copula function. By taking the partial derivative of the copula function, we obtain the conditional distribution function \parencite{aas2009}:
+\begin{equation}
+    \label{eq:hfunc1}
+    h_1(u_1|u_2) = \prob(U_1 \leq u_1|U_2 = u_2) = \frac{\partial C(u_1,u_2)}{\partial u_2}
+\end{equation}
+\begin{equation}
+    \label{eq:hfunc2}
+    h_2(u_1|u_2) = \prob(U_2 \leq u_2|U_1 = u_1) = \frac{\partial C(u_1,u_2)}{\partial u_1}
+\end{equation}
+The conditional distribution functions $h_1$ and $h_2$ allow us to estimate the probability outcomes if one random variable is smaller than a certain value, given the other random variable has a specific value \parencite{rad2016}.
+Using the conditional distribution functions for pairs trading allows us to calculate the conditional probability of a stock increasing or decreasing in price, given the current realization of the other stock's price. This is done every day in the trading period.
+
+There are two methods to derive trading signals from the conditional probabilities. The return-based method uses the most recent realized return of both stocks in a given pair to derive trading signals. \citet{krauss2017, liew2013} define upper and lower bound values for $h_1$ and $h_2$ for which they start trading. In particular, if $h_1$ happens to be smaller than 0.05, while $h_2$ happens to be larger than 0.95 on a given day, we are sufficiently confident in the mispricing and conclude that stock 2 is overvalued relative to stock 1 and simultaneously open a long short position.\footnote{Equilibrium pricing requires $h_1=h_2=0.5$. The interpretation of $h_1$ and $h_2$ will be discussed in Section \ref{sec:Copula Approach}.} Similar, if $h_1$ happens to be larger than 0.95, while $h_2$ happens to be smaller than 0.05 on a given day, we conclude that stock 1 is overvalued relative to stock 2 and we simultaneously open a long short position. Once the conditional probabilities return to 0.5, i.e., equilibrium pricing, we close both positions.
+The alternative method is based on relative mispricing over time using cumulative mispricing indices \parencite{rad2016,xie2016}. A detailed discussion of this method follows in Section \ref{sec:Copula Approach}, as this is the copula method used in this study.

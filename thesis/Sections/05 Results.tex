@@ -1,0 +1,147 @@
+\section{Results}
+\label{sec:Results}
+\subsection{Performance Statistics}
+\label{sec:Performance_Statistics}
+
+Table \ref{tab:monthly_excess_returns} provides average monthly excess returns for both strategies. We differentiate between the top 5 and top 20 pairs in terms of the SSD criterion for trading nomination.
+\begin{table}[hbt]
+\caption{Average Monthly Excess Returns of Top 5 and Top 20 Pairs}
+\label{tab:monthly_excess_returns}
+\fnote{This table contains average monthly excess returns for the distance and copula methods' top 5 and top 20 pairs before transaction costs.}
+\begin{tabularx}{\textwidth}{ld{2.7}d{2.7}d{2.7}d{2.7}}
+\toprule
+& \multicolumn{2}{c}{Top 5} & \multicolumn{2}{c}{Top 20} \\ \cline{2-5}
+& \multicolumn{1}{Y}{Distance} & \multicolumn{1}{Y}{Copula} & \multicolumn{1}{Y}{Distance} & \multicolumn{1}{Y}{Copula} \\
+\midrule
+\multicolumn{5}{c}{\textit{Panel A: Return on Employed Capital}} \\
+\hline
+Mean & 0.0069^{***} & 0.0074^{***} & 0.0057^{***} & 0.0068^{***} \\
+t-stat & 3.1030 & 2.7764 & 2.8881 & 2.8576 \\
+Std & 0.0314 & 0.0373 & 0.0278 & 0.0334 \\
+Sharpe Ratio & 0.2211 & 0.1978 & 0.2058 & 0.2036 \\
+Skewness & -0.6603 & -0.6797 & -1.1000 & -1.0015 \\
+Kurtosis & 1.4210 & 1.5332 & 2.8108 & 2.5776 \\
+\midrule
+\multicolumn{5}{c}{\textit{Panel B: Return on Committed Capital}} \\
+\hline
+Mean & 0.0043^{***} & 0.0070^{***} & 0.0038^{***} & 0.0063^{***} \\
+t-stat & 2.5277 & 2.7480 & 2.3975 & 2.7903 \\
+Std & 0.0238 & 0.0358 & 0.0224 & 0.0319 \\
+Sharpe Ratio & 0.1801 & 0.1958 & 0.1708 & 0.1988 \\
+Skewness & -0.9362 & -0.6531 & -1.5087 & -1.0414 \\
+Kurtosis & 2.8988 & 1.6590 & 5.2777 & 2.8847 \\
+\bottomrule
+\multicolumn{5}{l}{$^{***}$ indicates significance at the 1\% level.}
+\end{tabularx}
+\end{table}
+
+For both Panel A and Panel B, the average monthly excess return is higher for the top 5 pairs than for the top 20 pairs which implies a higher suitability of pairs with a low SSD for pairs trading. The distance methods average monthly excess return for the top 20 pairs is with 0.57\% lower than what \citet{rad2016} find (0.91\%). This is in line with the declining trend of the distance methods' profitability and the fact that we consider large-cap stocks, which are very liquid and receive a lot of attention from investors and analysts. Thus (equilibrium) pricing should be very efficient which leaves little to no arbitrage opportunities. Furthermore, \citet{rad2016} include the 1970s and 1980s, which were very profitable for the distance method. This might render their average monthly excess return higher.
+Compared to \citet{rad2016} not only the average monthly excess return is lower, but also the standard deviation is higher, which in turn results in a lower sharpe ratio of 0.0278 for the top 20 pairs of the distance method.
+In our study, the performance of the copula method is superior to the distance method with an average monthly excess return of 0.68\%. Interestingly, the drop in average monthly excess return in moving from the top 5 to the top 20 pairs is smaller for the copula method. The distance method seems to be more sensitive to pair quality in terms of the SSD criterion for trading nomination. Furthermore, while for the distance method the sharpe ratio decreases in moving from the top 5 to the top 20 pairs, for the copula method it increases.
+
+The difference between the average monthly excess return on employed capital and committed capital is larger for the distance method than for the copula method. This results from the fact that for the copula method we observe relatively early divergence during the trading period, usually in the first month. Furthermore, we observe very little convergence later on in the trading period. Thus, by definition return on employed and committed capital are very similar for the copula method. This is not the case for the distance method, where the difference between the return on employed capital and return on committed capital is larger because fewer pairs open for trading during a given trading period.
+
+Figure \ref{fig:cummulative_excess_return_employed_capital} provides the cumulative monthly excess return on employed capital for the distance and copula method. We can see a steady and similar increase in cumulative excess return for both strategies, although the copula method is slightly more profitable in terms of excess return. Furthermore, we immediately recognize two bumps in the graph, namely during the Global Financial Crisis (2007-2009) and the COVID-19 Pandemic (2019-2022). A detailed discussion of the strategies' performance during severe exogenous shocks to global financial markets will follow in Section \ref{sec:Sub-Period_Analysis}.
+
+\begin{figure}[hbt]
+    \caption{Cumulative Excess Return on Employed Capital}
+    \label{fig:cummulative_excess_return_employed_capital}
+    \fnote{This figure illustrates cumulative excess returns on employed capital for the top 20 pairs.}
+    \includegraphics[width=\textwidth]{Figures/cummulative_excess_return_employed_capital.pdf}
+\end{figure}
+
+Figure \ref{fig:monthly_excess} provides monthly excess returns from 2006 until 2022. Although the majority of months have a positive excess return, there are some months with extreme losses, most notably around the time of the Global Financial Crisis and the COVID-19 Pandemic. The discussion of why such events can imply large losses for pairs trading strategies will follow in Section \ref{sec:Sub-Period_Analysis}.
+However, implementing a simple stop-loss mechanism can enhance the pairs trading profitability. 
+\begin{figure}[hbt]
+    \caption{Monthly Excess Return on Employed Capital}
+    \label{fig:monthly_excess}
+    \fnote{This figure illustrates monthly excess return on employed capital for the top 20 pairs.}
+    \includegraphics[width=\textwidth]{Figures/monthly_excess_returns.pdf}
+\end{figure}
+
+
+\subsection{Trading Statistics}
+\label{sec:trade_statstics}
+
+Figure \ref{fig:trade_return_distribution} provides the return distribution of all trades executed in each of the respective pairs trading strategies. For the distance method, we find similar results as \citet{rad2016}, namely fat left tails, which imply that it is more likely to realize (extreme) negative returns than (extreme) positive returns. This however is not surprising, as the return of the distance method is bound by the relative mispricing we tolerate until we open a long short position by construction (two standard deviations of the spread from the preceding formation period).
+The copula method does exhibit both extreme negative as well as positive returns because it is not bound in profitability. In theory, this makes the strategy superior to the distance method in terms of return potential.
+\begin{figure}[hbt]
+    \caption{Return Distribution of Pairs Trading Strategies}
+    \fnote{This figure contains the trade return distributions of both strategies. Trade returns are defined as the sum of returns from long and short position.}
+    \label{fig:trade_return_distribution}
+    \includegraphics[width=\textwidth]{Figures/trade_return_distribution.pdf}
+\end{figure}
+
+Table \ref{tab:trade_statistics} provides a detailed summary about the trades executed in each pairs trading strategy. We find that, contrary to \citet{rad2016}, the distance method offers more trading opportunities than the copula method. Additionally, we find a surprisingly low rate of convergence among the distance methods trades. However, the trades that do converge are very profitable on average and overcompensate the negative returns of the unconverged trades. The converged trades also feature a small standard deviation which results in a large sharpe ratio.
+
+For the copula method, we find that, similar to \citet{rad2016} the convergence rate is lower than in the distance method. Surprisingly though, the average return for the convergent trades is negative, whereas for the non-convergent it is slightly positive. Hence the trades that do not converge are the driver of the copula methods' profitability. 
+This does not necessarily imply that copulas for pairs trading are unsuited. A potential issue of the copula method as implemented in this study is the non-copula-based pair selection process as pointed out by \citet{krauss2017}. A discussion of the pair selection process follows in Section \ref{sec:Conclusion}.
+
+\begin{table}[hbt]
+\caption{Converged and Unconverged Trade Summary Statistic}
+\label{tab:trade_statistics}
+\fnote{Trade type \qq{C} refers to trades which were closed by natural convergence. Trade type \qq{U} refers to trades that did not converge until the end of the trading period and thus were forced to be closed.}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lccd{2.2}d{2.4}d{1.4}d{1.4}d{2.4}d{2.2}d{2.2}d{3.2}}
+\toprule
+Strategy & Total & Trade & \multicolumn{1}{c}{\% of} & \multicolumn{1}{c}{Mean} & \multicolumn{1}{c}{Std.} & \multicolumn{1}{c}{Sharpe} & \multicolumn{1}{c}{Skew} & \multicolumn{2}{c}{Days open} & \multicolumn{1}{c}{Positive}\\\cline{9-10}
+& Trades & Type & \multicolumn{1}{c}{Trades} & & & \multicolumn{1}{c}{Ratio} & & \multicolumn{1}{c}{Mean} & \multicolumn{1}{c}{Median} & \multicolumn{1}{c}{Trades (\%)}\\
+
+\midrule
+\multirow{2}{*}{Distance} & \multirow{2}{*}{5391} & C & 44.78 & 0.0516 & 0.0213 & 2.4237 & 1.8280 & 31.30 & 25.00 & 100.00 \\
+& & U & 55.22 & -0.0332 & 0.0797 & -0.4168 & -0.4168 & & &  \\ 
+\midrule
+\multirow{2}{*}{Copula} & \multirow{2}{*}{4673} & C & 20.37 & -0.0220	 & 0.0294 & -0.7490 & -1.2852 & 30.39 & 20.00 & 11.97 \\
+& & U & 79.63 & 0.0030 & 0.0997 & 0.0300 & -0.0131 & & &  \\ 
+\bottomrule  
+\end{tabular}
+}
+\end{table}
+
+
+\subsection{Sub-Period Analysis}
+\label{sec:Sub-Period_Analysis}
+\citet{do2010} find that the distance method performed solidly during the Dot-com bear market (2000-2002) and the Global Financial Crisis (2007-2009). This makes it worthwhile to take a closer look at the Global Financial Crisis and the most recent shock to global financial markets, the COVID-19 Pandemic (2019-2022). 
+Figure \ref{fig:sub-period} provides the cumulative excess returns for both strategies and the number of trades executed during the two mentioned time frames.
+During the financial crisis, the profitability declines for 2 years until the first quarter of 2009, when excess returns begin to increase relatively fast. The profitability of the distance method is slightly higher at the end of the period, although it remains negative. The average monthly excess return during the Global Financial Crisis period is -0.17\%. The copula method only achieves an average monthly excess return of -0.24\%.
+For the COVID-19 Pandemic period, we see a very abrupt loss in excess return in the first quarter of 2020, essentially the point in time where the COVID-19 Pandemic hit the global economy. From thereon, excess returns increase. The average monthly excess return from 2019 until 2021 is 0.96\% for the distance and 1.3\% for the copula method respectively.
+Trading opportunities during the Global Financial Crisis are relatively stable. Only in 2009, the distance method suffers from a relatively large decrease in pairs traded.
+Interestingly, during the COVID-19 Pandemic trading opportunities peak in 2020. 
+
+These findings potentially have many different causes and require further in-depth analysis to draw robust conclusions. However, it seems plausible that in periods of high disruption such as the COVID-19 Pandemic, uncertainty among investors is rather large. Deriving the fair value of a stock is harder than during non-crisis times because the possible states of the world and thus future cash flows and growth rates of a company are even harder to predict. This might make it less likely for a diverged pair to return back to equilibrium pricing, which in turn implies (high) losses for trades entered prior to the COVID-19 shock to global financial markets.
+
+\begin{figure}[htb]
+    \caption{Excess Returns during Global Financial Crisis \& COVID-19 Pandemic}
+    \label{fig:sub-period}
+    \fnote{This figure contains cumulative monthly excess returns on employed capital and the number of  trades executed for the distance and copula method during the Global Financial Crisis (2007-2009) and the COVID-19 Pandemic (2019-2022).}
+    \includegraphics[width=\textwidth]{Figures/subperiod_analysis1.pdf}
+\end{figure}
+
+
+
+
+
+% \subsection{Pair Statistics}
+% \label{sec:Pair Statistics}
+
+% Table \ref{tab:pairs_sector_combinations} provides the top 10 pair combinations per sector among all nominated pairs for trading.\footnote{Sectors are defined following the Global Industry Classification Standard (GICS) which is provided by Standard \& Poor's.} Similar to \citet{do2010,do2012} stocks belonging to the utility sector are most often part of nominated pairs for trading. The authors suggest that this is partly due to stable demand and low differentiation.
+% Furthermore we observe relatively little cross sector pair combinations. In fact 69.45\% of pairs contain stocks that belong to the same sector. This is not surprising as companies in the same sector are exposed to similar external risk factors.
+% \begin{table}[hbt]
+% \caption{Top 10 Pair Combinations per Sector}
+% \label{tab:pairs_sector_combinations}
+% \begin{tabularx}{\textwidth}{XXd{2.2}}
+% \toprule
+% Sector Stock 1 & Sector Stock 2 & \multicolumn{1}{c}{Share(\%)} \\ \hline
+% Utilities              & Utilities              & 41.09 \\
+% Financials             & Financials             & 12.37 \\
+% Utilities              & Consumer Staples       & 4.66  \\
+% Communication Services & Communication Services & 4.24  \\
+% Consumer Staples       & Consumer Staples       & 4.11  \\
+% Industrials            & Industrials            & 3.78  \\
+% Consumer Staples       & Financials             & 2.55  \\
+% Financials             & Industrials            & 2.06  \\
+% Consumer Staples       & Health Care            & 2.06  \\
+% Utilities              & Health Care            & 1.95 \\
+% \bottomrule
+% \end{tabularx}
+% \end{table}
